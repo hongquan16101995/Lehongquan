@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biến, kiểu dữ liệu và toán tử</title>
+</head>
+<body>
+<script>
+    let diemly;
+    let diemhoa;
+    let diemsinh;
+    diemly = prompt('Điểm Vật lý');
+    diemhoa = prompt('Điểm Hóa học');
+    diemsinh = prompt('Điểm Sinh học');
+    let ly = parseInt(diemly);
+    let hoa = parseInt(diemhoa);
+    let sinh = parseInt(diemsinh);
+    let aveg = (ly+hoa+sinh)/3;
+    document.write('Điểm Lý: ' + diemly);
+    document.write('</br>');
+    document.write('Điểm Hóa: ' + diemhoa);
+    document.write('</br>');
+    document.write('Điểm Sinh: ' + diemsinh);
+    document.write('</br>');
+    document.write('Điểm trung bình 3 môn: ' + aveg)
+</script>
+</body>
+</html>
