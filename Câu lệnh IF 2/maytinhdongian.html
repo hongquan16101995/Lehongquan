@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính đơn giản</title>
+    <script src="maytinh.js"></script>
+</head>
+<body>
+<form>
+    <table style="width: 400px; height: 400px; border: 5px solid black" cellpadding="20px">
+        <tr>
+            <td colspan="4" style="width: 100%"><input type="text" value="" id="hienthi" size="45"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="1" value="1" onclick="showValue(value)"></td>
+            <td><input type="button" name="2" value="2" onclick="showValue(value)"></td>
+            <td><input type="button" name="3" value="3" onclick="showValue(value)"></td>
+            <td><input type="button" name="+" value="+" onclick="showValue(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="4" value="4" onclick="showValue(value)"></td>
+            <td><input type="button" name="5" value="5" onclick="showValue(value)"></td>
+            <td><input type="button" name="6" value="6" onclick="showValue(value)"></td>
+            <td><input type="button" name="-" value="-" onclick="showValue(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" name="7" value="7" onclick="showValue(value)"></td>
+            <td><input type="button" name="8" value="8" onclick="showValue(value)"></td>
+            <td><input type="button" name="9" value="9" onclick="showValue(value)"></td>
+            <td><input type="button" name="*" value="*" onclick="showValue(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="reset" name="C" value="C"></td>
+            <td><input type="button" name="0" value="0" onclick="showValue(value)"></td>
+            <td><input type="button" name="=" value="=" id="daubang" onclick="calculator()"></td>
+            <td><input type="button" name="/" value="/" onclick="showValue(value)"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

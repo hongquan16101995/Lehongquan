@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Doanh số bán hàng: ")
+    let hh;
+    if (a > 100000000) {
+        hh = ("Hoa hồng bằng 10% doanh số")
+    }else if (a > 70000000){
+        hh = ("Hoa hồng bằng 5% doanh số")
+    }else if (a >30000000) {
+        hh = ("Hoa hồng bằng 3% doanh số")
+    }else {
+        hh = ("Không có hoa hồng")
+    }
+    alert(hh);
+</script>
+</body>
+</html>

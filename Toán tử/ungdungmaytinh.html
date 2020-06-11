@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td colspan="2">
+                <input type="number" name="nhap1" id="number1">
+            </td>
+            <td colspan="2">
+                <input type="number" name="nhap2" id="number2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" name="cong" id="cong" onclick="showResult()">Addition(+)</button>
+            </td>
+            <td>
+                <button type="button" name="tru" id="tru" onclick="showResult2()">Subtraction(-)</button>
+            </td>
+            <td>
+                <button type="button" name="nhan" id="nhan" onclick="showResult3()">Multiplication(x)</button>
+            </td>
+            <td>
+                <button type="button" name="chia" id="chia" onclick="showResult4()">Division(/)</button>
+            </td>
+        </tr><br><br>
+    </table>
+    <div id="hienra"></div>
+</form>
+<script>
+    function showResult() {
+        let a = parseFloat(document.getElementById('number1').value);
+        let b = parseFloat(document.getElementById('number2').value);
+        let c = a+b;
+        document.getElementById('hienra').innerHTML='ResultAddition: ' + c
+    }
+    function showResult2() {
+        let a = document.getElementById('number1').value;
+        let b = document.getElementById('number2').value;
+        let d = a-b;
+        document.getElementById('hienra').innerHTML='ResultSubtraction: ' + d
+    }
+    function showResult3() {
+        let a = document.getElementById('number1').value;
+        let b = document.getElementById('number2').value;
+        let e = a*b;
+        document.getElementById('hienra').innerHTML='ResultMultiplication: ' + e
+    }
+    function showResult4() {
+        let a = document.getElementById('number1').value;
+        let b = document.getElementById('number2').value;
+        let f = a/b;
+        document.getElementById('hienra').innerHTML='ResultDivision: ' + f
+    }
+</script>
+</body>
+</html>
