@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tienbandau = +prompt("Số tiền ban đầu là: ");
+    let laisuat = 5/100;
+    let sothang = +prompt("Số tháng gửi là: ");
+    let laithang;
+    let i;
+    for (i=1;i<=sothang;i++){
+        laithang=(tienbandau*laisuat);
+        tienbandau+=laithang;
+    }
+    document.write("Số tiền nhận được là :" + tienbandau)
+</script>
+</body>
+</html>
