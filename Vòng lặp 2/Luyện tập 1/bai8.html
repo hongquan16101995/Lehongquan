@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <input type="button" value="Chơi" onclick="doanso()">
+</div>
+<script>
+    function doanso() {
+        let num1 = +prompt("Nhập vào số thứ nhất: ");
+        let num2 = +prompt("Nhập vào số thứ hai: ");
+        let numran = Math.round(Math.random() * (num2 - num1)+num1);
+        let numdoan = +prompt("Nhập vào số muốn đoán: ");
+        let i = 1;
+        if (numdoan < num1 || numdoan > num2) {
+            do {
+                alert("Bạn đã nhập sai, mời nhập lại!")
+                numdoan = prompt("Nhập vào số muốn đoán: ")
+            }
+            while (numdoan < num1 || numdoan > num2)
+        } else if (numdoan !== numran) {
+            while (numdoan !== numran) {
+                numdoan = +prompt("Nhập vào số muốn đoán: ")
+                /*i++
+                if (i === 3)
+                    break;*/
+            }
+        } else {
+            alert("Bạn đã đoán đúng!")
+        }
+        document.write("Số đúng là: " + numran)
+    }
+
+</script>
+</body>
+</html>

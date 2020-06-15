@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=0;
+    let b=1;
+    let num=+prompt("Nhập vào số lượng số cần hiển thị: ")
+    document.write("Những số cần tìm là: ")
+    for (i=1;i<=num;i++){
+        c=a+b
+        a=b
+        b=c
+        document.write(c+", ")
+    }
+</script>
+</body>
+</html>

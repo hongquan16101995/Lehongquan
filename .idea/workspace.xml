@@ -11,22 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35010f7b-391e-4794-8dd6-8dea00b74c85" name="Default Changelist" comment="bigupdate">
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/bangcuuchuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toggeeswitch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 1/carosimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 1/daonguocbang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 1/giatrilonnhattrongbang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 1/taovathaotacmang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 1/timgiatritrongmang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/songuyento.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp/for.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp/for2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp/while.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp/while2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +73,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Câu lệnh IF 2" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Toán tử" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Vòng lặp 2" />
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan" />
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Câu lệnh IF 2" />
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Câu lệnh IF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Câu lệnh IF 2" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Toán tử" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -114,7 +116,8 @@
       <workItem from="1591870334180" duration="40000" />
       <workItem from="1591923121718" duration="10548000" />
       <workItem from="1591934527325" duration="5799000" />
-      <workItem from="1592101081718" duration="11340000" />
+      <workItem from="1592101081718" duration="16105000" />
+      <workItem from="1592183462974" duration="23685000" />
     </task>
     <servers />
   </component>
