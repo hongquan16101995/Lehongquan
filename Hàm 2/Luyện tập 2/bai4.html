@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function ktra(value) {
+        if(isNaN(value)==true){
+            alert("False!")
+        }else if(isNaN(value)==false){
+            alert("True!")
+        }
+    }
+    function display() {
+        let value= prompt("Nhập vào giá trị bất kỳ: ")
+        ktra(value)
+    }
+    window.onload=display()
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [5,6,7,8,9,10,11,12,13,14];
+    /*arr.sort(function (a,b) {
+        return a-b
+    })
+    arr.reverse()
+    document.write(arr)*/
+    let i=0;
+    let j=arr.length-1
+    for (i,j;i<=j;i++,j--){
+        temp = arr[i]
+        arr[i]=arr[j]
+        arr[j]=temp
+    }
+    document.write("Bảng đảo ngược là: "+arr);
+</script>
+</body>
+</html>

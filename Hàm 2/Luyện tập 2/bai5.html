@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function ktraValue(value1,value2,value3) {
+        if (value1<value2){
+            if (value1<value3){
+                alert("Số nhỏ nhất là: "+value1)
+            }else if (value3<value1){
+                alert("Số nhỏ nhất là: "+value3)
+            }
+        }else
+            alert("Số nhỏ nhất là: "+value2)
+    }
+    function display() {
+        let a= +prompt("Số thứ 1: ");
+        let b= +prompt("Số thứ 2: ");
+        let c= +prompt("Số thứ 3: ");
+        ktraValue(a,b,c);
+    }
+    window.onload=display()
+</script>
+</body>
+</html>

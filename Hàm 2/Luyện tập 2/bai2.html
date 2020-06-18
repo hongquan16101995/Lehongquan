@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function perimeterCircle(value) {
+        per=value*2*3.14;
+        return per
+    }
+    
+    function acreageCircle(value) {
+        acr=value*value*3.14;
+        return acr
+    }
+
+    function display() {
+        let value= +prompt("Nhập vào bán kính hình tròn: ");
+        document.write("Chu vi hình tròn là: "+perimeterCircle(value));
+        document.write("<br>Diện tích hình tròn là: "+acreageCircle(value));
+    }
+    window.onload=display()
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function inputArr(a) {
+        let sizeArr;
+        do{
+            sizeArr = +prompt("Nhập vào kich thước của mảng: ");
+        }
+        while (sizeArr<=0);
+
+        for(let i=0;i<sizeArr;i++){
+            a[i] = prompt("Nhập vào giá trị thứ "+i+" :")
+        }
+    }
+
+    //hàm đếm số phần tử không phải là số trong mảng
+    function demNum(a){
+        let count=0;
+        for (let i=0;i<a.length;i++){
+            if(isNaN(a[i])==true) {
+                count++
+            }
+        }
+        return count
+    }
+
+    let array = new Array();
+    inputArr(array);
+    document.write("Số từ trong mảng là: " +demNum(array))
+</script>
+</body>
+</html>

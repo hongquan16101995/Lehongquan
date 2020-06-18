@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function inputArr(a) {
+        let sizeArr;
+        do{
+            sizeArr = +prompt("Nhập vào kich thước của mảng: ");
+        }
+        while (sizeArr<=0);
+
+        for(let i=0;i<sizeArr;i++){
+            a[i] = prompt("Nhập vào giá trị thứ "+i+" :")
+        }
+    }
+
+    function daomang(a){
+        let first = 0;
+        let last = a.length - 1;
+        while (first<last){
+            let b = a[first];
+            a[first]=a[last];
+            a[last]=b;
+            first++;
+            last--;
+        }
+        return a;
+    }
+    let array = new Array();
+    inputArr(array);
+    document.write("Mảng đảo ngược mới là: "+daomang(array));
+</script>
+</body>
+</html>

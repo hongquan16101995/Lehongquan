@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function inputArr(a) {
+        let sizeArr;
+        do{
+            sizeArr = +prompt("Nhập vào kich thước của mảng 1: ");
+        }
+        while (sizeArr<=0);
+
+        for(let i=0;i<sizeArr;i++){
+            a[i] = prompt("Nhập vào giá trị thứ "+i+" của mảng 1 :")
+        }
+    }
+    
+    function inputArr2(a) {
+        let sizeArr;
+        do{
+            sizeArr = +prompt("Nhập vào kich thước của mảng 2: ");
+        }
+        while (sizeArr<=0);
+
+        for(let i=0;i<sizeArr;i++){
+            a[i] = prompt("Nhập vào giá trị thứ "+i+" của mảng 2 :")
+        }
+    }
+    function display1(a){
+        for (let i=0;i<a.length;i++){
+            document.write(a[i]+", ")
+        }
+    }
+    function display2(a){
+        for (let i=0;i<a.length;i++){
+            document.write(a[i]+", ")
+        }
+    }
+
+    
+    let array1 = new Array();
+    let array2 = new Array();
+    inputArr(array1);
+    inputArr2(array2);
+    display1(array1);
+    display2(array2);
+    if(array1==array2){
+        alert("Giống nhau!")
+    }else
+        alert("Khác nhau!")
+
+</script>
+</body>
+</html>

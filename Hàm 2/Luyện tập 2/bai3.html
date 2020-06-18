@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function factorialValue(value) {
+        let fac=1;
+        for (let i=1;i<=value;i++){
+                fac*=i
+        }
+        return fac
+    }
+
+    function display() {
+        let value= +prompt("Nhập vào 1 số: ");
+        document.write("Giai thừa của số là: "+factorialValue(value));
+    }
+    window.onload=display();
+</script>
+</body>
+</html>

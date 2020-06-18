@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function ktra() {
+        let chomsao1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+        let chomsao2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+        let x = prompt("Têm chòm sao : ")
+        let ketqua;
+        for (let i = 0; i < chomsao1.length; i++) {
+            ketqua=true;
+            if (x == chomsao1[i]) {
+                document.write("Chòm sao cần tìm tương ứng là: "+chomsao2[i]);
+                break;
+            }
+            if(x!=chomsao1[i]) {
+                ketqua=false;
+            }
+        }
+        if(ketqua==false){
+            alert("Không tìm thấy!")
+        }
+    }
+    window.onload=ktra()
+</script>
+</body>
+</html>

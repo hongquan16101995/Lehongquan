@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function congValue() {
+        let value= +prompt("Nhập vào 1 số: ");
+        value+=1;
+        return value;
+    }
+    function displayValue() {
+        document.write("Số sau khi cộng thêm 1 là: " + congValue())
+    }
+    window.onload=displayValue()
+</script>
+</body>
+</html>

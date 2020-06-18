@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label><input type="text" size="30" value="" id="tucantim"></label><br><br>
+<button onclick="ktra()">Dịch</button><br><br>
+<label><input type="text" size="30" value="" id="tuhienthi" disabled></label><br><br>
+<script>
+    function ktra() {
+        let boardEng = ["City", "Countryside", "Villa", "Car", "Color"];
+        let boardVn = ["Thành phố", "Nông thôn", "Biệt thự", "Ôtô", "Màu sắc"];
+        let x = document.getElementById("tucantim").value;
+        let ketqua;
+        for (let i = 0; i < boardEng.length; i++) {
+            ketqua=true;
+            if (x == boardEng[i]) {
+                document.getElementById("tuhienthi").value = boardVn[i];
+                break;
+            }
+            if(x!=boardEng[i]) {
+                ketqua=false;
+            }
+        }
+        if(ketqua==false){
+            document.getElementById("tuhienthi").value = ""
+            alert("Không tìm thấy!")
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function thamso() {
+        let a= +prompt("Nhập số thứ 1: ");
+        let b= +prompt("Nhập số thứ 2: ");
+        let sum=0;
+        if(a>b){
+            alert("Tham số thứ 1 lớn hơn tham số thứ 2")
+        }else if(a<b){
+            sum=a+b
+        }
+        return sum
+    }
+    function display() {
+        document.write("Giá trị tổng 2 tham số là: "+thamso())
+    }
+    window.onload=display()
+</script>
+</body>
+</html>

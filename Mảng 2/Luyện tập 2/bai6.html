@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function inputArray(a) {
+        let sizeArr;
+        do {
+            sizeArr = +prompt("Nhập vào kích thước của mảng: ")
+        }
+        while (sizeArr<=0);
+        for (let i=0;i<sizeArr;i++){
+            a[i] = prompt("Nhập vào giá trị thứ "+i+": ");
+        }
+    }
+    function thay(a){
+        for (let i=0;i<a.length;i++){
+            if(a[i]=="-"){
+                a[i]= "_"
+            }
+        }
+        return a
+    }
+    let array = new Array();
+    inputArray(array);
+    document.write("Mảng mới là: "+thay(array));
+</script>
+</body>
+</html>

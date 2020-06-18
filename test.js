@@ -45,3 +45,13 @@ function changeValue() {
     data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>"
     b.innerHTML = "<hr/>" + data;
 }*/
+/*function tinhDoC(doF){
+    let doC = (doF-32)/1.8;
+    return doC
+}
+function tinhtoan() {
+    let input = document.getElementById("nhapvao").value;
+    let ketqua = tinhDoC(input);
+    document.getElementById("xuatra").innerHTML = ketqua
+
+}*/

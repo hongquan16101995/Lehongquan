@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //hàm khai báo mảng
+    function inputArr(a) {
+        let sizeArr;
+        do{
+            sizeArr = +prompt("Nhập vào kich thước của mảng: ");
+        }
+        while (sizeArr<=0);
+
+        for(let i=0;i<sizeArr;i++){
+            a[i] = +prompt("Nhập vào giá trị thứ "+i+" :")
+        }
+    }
+
+    //hàm ktra value có trong mảng hay k, lấy vị trí phần tử và xóa phần tử đó
+    function ktraValue(a) {
+        let value = +prompt("Nhập vào giá trị cần tim: ");
+        a.includes(value)
+        let chiso = a.indexOf(value)
+        a.splice(chiso, 1)
+        return a
+    }
+
+    //hàm thêm vào 1 value ở đầu mảng
+    function themValue(a) {
+        let value = +prompt("Nhập vào giá trị cần tim: ");
+        a.unshift(value)
+        return a
+    }
+
+    //hàm sắp xếp mảng số từ nhở đến lớn
+    function sapxepArr(a) {
+        let value = +prompt("Nhập vào giá trị cần tim: ");
+        a.unshift(value);
+        a.sort(function (a, b) {
+            return a - b;
+        })
+        return a
+    }
+
+    //hàm đảo ngược mảng và chuyển mảng thành chuỗi (thêm dấu cách)
+    function daomang(a){
+        a.reverse()
+        a.join(", ")
+        return a
+    }
+    let arr = new Array();
+    inputArr(arr);
+    document.write(ktraValue(arr));
+    document.write("<br><br>");
+    document.write(themValue(arr));
+    document.write("<br><br>");
+    document.write(sapxepArr(arr));
+    document.write("<br><br>");
+    document.write(daomang(arr));
+</script>
+</body>
+</html>

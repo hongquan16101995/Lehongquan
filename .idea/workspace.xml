@@ -11,22 +11,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35010f7b-391e-4794-8dd6-8dea00b74c85" name="Default Changelist" comment="bigupdate">
-      <change afterPath="$PROJECT_DIR$/Mảng 1/carosimple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 1/daonguocbang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 1/giatrilonnhattrongbang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 1/taovathaotacmang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 1/timgiatritrongmang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/songuyento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO/chenvalue-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO/demobaitap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO/demobaitap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO/sapxepmang-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO/xoavalue-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEMO/xoavalue-demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 1/giatrinhonhatcuamang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 1/taovagoiham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập 2/bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/ktraSNT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/ktraSNT2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/meter-feet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/meter-feet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/sudunghamcosantrongmang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/tictactoe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/tudien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mảng 1/carosimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/carosimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mảng 1/daonguocbang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/daonguocbang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/songuyento.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/songuyento.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
@@ -69,20 +106,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mảng 1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 1" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 2\Luyện tập 2" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 2\Luyện tập 1" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 2" />
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Câu lệnh IF 2" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Toán tử" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\DEMO" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 2" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 2\Luyện tập 2" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Hàm 1" />
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Vòng lặp 2" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Câu lệnh IF 2" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Câu lệnh IF" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -117,7 +157,17 @@
       <workItem from="1591923121718" duration="10548000" />
       <workItem from="1591934527325" duration="5799000" />
       <workItem from="1592101081718" duration="16105000" />
-      <workItem from="1592183462974" duration="23685000" />
+      <workItem from="1592183462974" duration="24272000" />
+      <workItem from="1592225004583" duration="7289000" />
+      <workItem from="1592232870108" duration="2000" />
+      <workItem from="1592232912976" duration="506000" />
+      <workItem from="1592233751327" duration="171000" />
+      <workItem from="1592234522363" duration="341000" />
+      <workItem from="1592268325615" duration="21470000" />
+      <workItem from="1592310149130" duration="8797000" />
+      <workItem from="1592354649044" duration="24591000" />
+      <workItem from="1592393885548" duration="8420000" />
+      <workItem from="1592440704915" duration="16712000" />
     </task>
     <servers />
   </component>
@@ -161,5 +211,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591944557899" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592456021898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592456021898" />
   </component>
 </project>

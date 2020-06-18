@@ -6,17 +6,119 @@
     <script src="test.js"></script>
 </head>
 <body>
-    <script>
-        let iMax = 20;
-        let jMax = 10;
-        let f = new Array();
+<script>
+    /*let width = parseInt(prompt('nhap chieu rong'));
+    let height = parseInt(prompt('nhap chieu dai'));
+    let h = '*';
+    let w = '*';
+    let space = '';
 
-        for (i = 0; i < iMax; i++) {
-            f[i] = new Array();
-            for (j = 0; j < jMax; j++) {
-                f[i][j] = 0;
+    for (let i = 1; i < width; i ++){
+        space += '&nbsp&nbsp' ;
+    }
+
+    for (let i = 0; i < width; i++){
+        h += '*';
+    }
+    document.write(h + '<br>');
+
+    for (let i = 0; i < height; i++){
+        document.write(w + space +  w + '<br>')
+    }
+    document.write(h);*/
+    /*let a = new Array();
+    let rows=10;
+    let cols=10;
+    for(let i=0;i<rows;i++){
+        a[i]=[];
+        for(let j=0;j<cols;j++){
+            a[i][j]=Math.floor(Math.random()*100);
+        }
+    }
+    for(let i=0;i<a.length;i++){
+            for(let j=0;j<a[i].length;j++){
+                document.write(a[i][j]+" ");
+            }
+            document.write("<br>");
+        }*/
+    /*function minArray(arr) {
+        if(arr.length == 0)
+            return -1;
+        let min = arr[0];
+        let vitri = 0;
+
+        for(let i = 1; i < arr.length; i++){
+            if(arr[i] < min){
+                min = arr[i];
+                vitri=i;
             }
         }
-    </script>
+        return vitri;
+    }
+    let arr = [1,2,3,4,-1]
+    let min = minArray(arr)
+    alert(min)*/
+    /*function inputArr(a) {
+        let sizeArr;
+        do{
+            sizeArr = +prompt("Nhập vào kich thước của mảng: ");
+        }
+        while (sizeArr<=0);
+        for(let i=0;i<sizeArr;i++){
+            a[i] = +prompt("Nhập vào giá trị thứ "+i+" :")
+        }
+    }
+    function display(a){
+        for (let i=0;i<a.length;i++){
+            document.write(a[i]+" ")
+        }
+    }*/
+    //quản lý ứng dụng
+    /*let products = ['Samsung Galaxy S20+', 'Samsung Galaxy A51', 'iPhone 11 Pro Max 512GB',
+        ' iPhone 11 64GB', 'iPhone Xs Max 256GB', 'iPhone SE 64GB', 'Vsmart Active 3'];
+    let screen,proName;
+    function Display() {
+        let nameSP = new Array();
+        screen = "<p id='load'><strong>Add New Product</strong></p><input id='add' type='text'>" +
+            "<button onclick='add()'>Add</button><br><br>";
+        screen += "<table border='1' style=' width: 500px; text-align: center' >" +
+            "<tr><td>STT</td><td>Product Name</td><td colspan='2'>Selection</td></tr>"
+        for (let i = 0; i <products.length ; i++) {
+            nameSP[i] = products[i];
+        }
+        for (let i = 0; i <nameSP.length ; i++) {
+            screen+="<tr style='height: 35px'>"+
+                "<td>"+(i+1)+"</td>"+"" +
+                "<td>"+nameSP[i]+"</td>"+
+                "<td><button value= '" + nameSP[i] + "' onclick='Change(value)'>Edit</button></td>"+
+                "<td><button value= '" + nameSP[i] + "' onclick='Del(value)'>Delete</button></td>"+
+                "</tr>"
+        }
+        screen+="</table>";
+        document.getElementById("Z0").innerHTML = screen;
+    }
+    function add(){
+        let nameSP = document.getElementById("add").value;
+        products.push(nameSP);
+        Display();
+    }
+    function Change(value){
+        let product =''+ value;
+        proName = value;
+        product+="<br><br><input type='text' id='name'><button onclick='ok()'>New name</button>";
+        document.getElementById("Z0").innerHTML = product;
+    }
+    function ok() {
+        let name = document.getElementById("name").value;
+        console.log(name);
+        products[products.indexOf(proName)]=name;
+        Display();
+    }
+    function Del(value){
+        products.splice(products.indexOf(value),1);
+        Display();
+    }
+    window.onload = Display;*/
+</script>
 </body>
 </html>

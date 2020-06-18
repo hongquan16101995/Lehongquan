@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function squareValue() {
+        let value= +prompt("Nhập vào 1 số bất kỳ: ");
+        let square= value*value;
+        return square;
+    }
+    function display(){
+        document.write("Bình phương là :" + squareValue());
+    }
+    window.onload=display()
+</script>
+</body>
+</html>

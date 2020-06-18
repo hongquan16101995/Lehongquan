@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function ktraValue(value){
+        if(value>0 && value%1==0){
+            alert("True!")
+        }else
+            alert("False!")
+    }
+    function display() {
+        let num= prompt("Nhập vào giá trị bất kỳ: ");
+        ktraValue(num);
+    }
+    window.onload=display();
+</script>
+</body>
+</html>
