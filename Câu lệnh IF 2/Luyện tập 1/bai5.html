@@ -6,21 +6,21 @@
 </head>
 <body>
 <script>
-    let a = +prompt('Nhập điểm kiểm tra: ');
-    let b = +prompt('Nhập điểm kiểm tra: ');
-    let c = +prompt('Nhập điểm kiểm tra: ');
-    let aveg = (a + b*2 + c*7)/10;
-    let d;
-    if (aveg >= 8) {
-        d = ('Học sinh giỏi')
-    }else if (aveg >= 6.5){
-        d =  ('Học sinh khá')
-    }else if (aveg >= 5){
-        d = ('Học sinh TB')
+    let a = +prompt("Nhập điểm kiểm tra: ");
+    let b = +prompt("Nhập điểm kiểm tra: ");
+    let c = +prompt("Nhập điểm kiểm tra: ");
+    let avg = (a + b*2 + c*7)/10;
+    let thongbao;
+    if (avg >= 8) {
+        thongbao = ('Học sinh giỏi');
+    }else if (avg >= 6.5){
+        thongbao =  ('Học sinh khá');
+    }else if (avg >= 5){
+        thongbao = ('Học sinh TB');
     }else {
-       d= ('Học sinh yếu')
+        thongbao = ('Học sinh yếu');
     }
-    alert(d)
+    alert(thongbao);
 </script>
 </body>
 </html>

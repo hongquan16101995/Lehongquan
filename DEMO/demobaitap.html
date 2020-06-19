@@ -49,41 +49,41 @@
     }
 
     //hàm tìm giá trị âm lớn nhất trong mảng
-    function maxamValue(a){
-        let maxam=0;
+    function maxnegativeValue(a){
+        let maxnegative=0;
         for(let i=0;i<a.length;i++){
             if(a[i]<0){
-                maxam=a[i];
+                maxnegative=a[i];
                 break;
             }
         }
         for(let i=0;i<a.length;i++){
-            if(a[i]<0&&maxam<a[i]){
-                maxam=a[i];
+            if(a[i]<0&&maxnegative<a[i]){
+                maxnegative=a[i];
             }
         }
-        return maxam;
+        return maxnegative;
     }
 
     //hàm tìm giá trị dương nhỏ nhất
-    function mindgValue(a){
-        let mindg=0;
+    function minpositiveValue(a){
+        let minpositive=0;
         for(let i=0;i<a.length;i++){
             if(a[i]>=0){
-                mindg=a[i];
+                minpositive=a[i];
                 break;
             }
         }
         for(let i=0;i<a.length;i++){
-            if(a[i]>=0&&mindg>a[i]){
-                mindg=a[i];
+            if(a[i]>=0&&minpositive>a[i]){
+                minpositive=a[i];
             }
         }
-        return mindg;
+        return minpositive;
     }
 
     //hàm đếm xem có trong mảng có bn phần tử là value
-    function demValue(a){
+    function countValue(a){
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
         let count=0;
         for (let i=0;i<a.length;i++){
@@ -95,7 +95,7 @@
     }
 
     //hàm ktra xem value có tồn tại trong mảng hay k
-    function ktrapValue(a){
+    function checkValue(a){
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
         for (let i=0;i<a.length;i++){
             if(a[i]==value){
@@ -106,21 +106,21 @@
     }
 
     //hàm chèn vào 1 value bất kỳ tại vị trí bất kỳ trong mảng (vị trí < độ dài mảng)
-    function chenValue(a){
+    function insertValue(a){
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
-        let k = +prompt("Nhập vào vị trí của phần tử: ")
-        if(k<=a.length){
-            for (let i=a.length;i>k;i--){
+        let index = +prompt("Nhập vào vị trí của phần tử: ")
+        if(index<=a.length){
+            for (let i=a.length;i>index;i--){
                 a[i]=a[i-1]
             }
-            a[k]=value
+            a[index]=value
         }
         return a
     }
 
     //hàm xóa 1 value bất kỳ tại vị trí bất kỳ trong mảng (value có trong mảng)
     //tham khảo bài xoavalue-demo
-    function xoaValue(a){
+    function deleteValue(a){
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
         for (let i=0;i<a.length;i++){
             if (a[i]==value){
@@ -131,7 +131,7 @@
     }
 
     //hàm đảo ngược vị trí phần tử trong mảng
-    function daomang(a){
+    function reversalArr(a){
         let i = 0;
         let j = a.length - 1;
         for (i,j;i<=j;i++,j--){
@@ -157,43 +157,43 @@
 
 
     document.write("<br><br>");
-    maxam=maxamValue(array);
-    if(maxam==0)
+    maxnegative=maxnegativeValue(array);
+    if(maxnegative==0)
         document.write("<br>Mảng không có số âm! ")
     else
-        document.write("<br> Phần tử âm lớn nhất trong mảng: "+maxam);
+        document.write("<br> Phần tử âm lớn nhất trong mảng: "+maxnegative);
 
 
     document.write("<br><br>");
-    mindg=mindgValue(array);
-    if(mindg==0)
+    minpositive=minpositiveValue(array);
+    if(minpositive==0)
         document.write("<br>Mảng không có số dương! ")
     else
-        document.write("<br>Phần tử dương nhỏ nhất trong mảng: "+mindg);
+        document.write("<br>Phần tử dương nhỏ nhất trong mảng: "+minpositive);
 
 
     document.write("<br><br>");
-    document.write("<br>Số lần phần tử xuất hiện là: "+demValue(array));
+    document.write("<br>Số lần phần tử xuất hiện là: "+countValue(array));
 
 
     document.write("<br><br>");
-    ktra=ktrapValue(array);
-    if(ktra==true)
+    check=checkValue(array);
+    if(check==true)
         document.write("<br>Phần tử đã tồn tại trong mảng!")
     else
         document.write("<br>Phần tử không tồn tại trong mảng!")
 
 
     document.write("<br><br>");
-    document.write("<br>Mảng chèn mới là: "+chenValue(array));
+    document.write("<br>Mảng chèn mới là: "+insertValue(array));
 
 
     document.write("<br><br>");
-    document.write("<br>Mảng xóa mới là: "+xoaValue(array));
+    document.write("<br>Mảng xóa mới là: "+deleteValue(array));
 
 
     document.write("<br><br>");
-    document.write("<br>Mảng đảo ngược mới là: "+daomang(array));
+    document.write("<br>Mảng đảo ngược mới là: "+reversalArr(array));
 </script>
 </body>
 </html>

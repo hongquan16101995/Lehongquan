@@ -6,18 +6,18 @@
 </head>
 <body>
 <script>
-    let a = +prompt('Nhập vào số điện: ');
-    let b = 50;
-    let c = 70;
-    let d = 100;
-    if (a > d) {
-        document.write('Tiền điện là: ' + (a * 5000) + ' VND')
-    }else if (a > c) {
-        document.write('Tiền điện là: ' + ((a - c) * 4000 + (c - b) * 3000 + b * 2000) + ' VND')
-    }else if (a > b) {
-        document.write('Tiền điện là: ' + ((a - b) * 3000 + b * 2000) + ' VND')
+    let powernum = +prompt("Nhập vào số điện: ");
+    let lv1 = 50;
+    let lv2 = 70;
+    let lv3 = 100;
+    if (powernum > lv3) {
+        document.write('Tiền điện là: ' + (powernum * 5000) + " VND")
+    }else if (powernum > lv2) {
+        document.write('Tiền điện là: ' + ((powernum - lv2) * 4000 + (lv2 - lv1) * 3000 + lv1 * 2000) + " VND")
+    }else if (powernum > lv1) {
+        document.write('Tiền điện là: ' + ((powernum - lv1) * 3000 + lv1 * 2000) + " VND")
     }else{
-        document.write('Tiền điện là: ' + a*2000 + ' VND')
+        document.write('Tiền điện là: ' + powernum*2000 + " VND")
     }
 </script>
 </body>

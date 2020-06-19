@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        table,tr,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
 </head>
 <body>
 <script>
-
+    function drawGame(N){
+        let string="<table>";
+        for (let i=0;i<N;i++){
+            string+="<tr>";
+            for (let j=0;j<N;j++){
+                string+="<td onclick='displayXO'>"
+            }
+        }
+        string+="<table>";
+        document.write(string)
+    }
+    let N= +prompt("Nhập vào số hàng: ")
+    drawGame(N)
 </script>
 </body>
 </html>

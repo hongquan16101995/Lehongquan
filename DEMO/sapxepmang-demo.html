@@ -19,7 +19,7 @@
     }
 
     //hàm sắp xếp lớn đến nhỏ
-    function sapxeplonArr(a) {
+    function maxsortArr(a) {
         for (let i=0;i<a.length;i++){
             for (let j=i+1;j<a.length;j++){
                 let temp=0;
@@ -34,7 +34,7 @@
     }
 
     //hàm sắp xếp nhỏ đến lớn
-    function sapxepnhoArr(a) {
+    function minsortArr(a) {
         for (let i=0;i<a.length;i++){
             for (let j=i+1;j<a.length;j++){
                 let temp=0;
@@ -49,7 +49,7 @@
     }
 
     //hàm đảo ngược vị trí các phần tử
-    function daomang(a){
+    function reversalArr(a){
         let i=0;
         let j=a.length-1;
         let temp=0;
@@ -63,9 +63,9 @@
 
     let arr = new Array();
     inputArr(arr);
-    document.write("Mảng sắp xếp lớn dần: "+sapxeplonArr(arr));
-    document.write("<br>Mảng sắp xếp nhỏ dần: "+sapxepnhoArr(arr));
-    document.write("<br>Mảng sau khi đảo ngược: "+daomang(arr));
+    document.write("Mảng sắp xếp lớn dần: "+maxsortArr(arr));
+    document.write("<br>Mảng sắp xếp nhỏ dần: "+minsortArr(arr));
+    document.write("<br>Mảng sau khi đảo ngược: "+reversalArr(arr));
 </script>
 </body>
 </html>

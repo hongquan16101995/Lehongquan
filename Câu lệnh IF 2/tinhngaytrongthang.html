@@ -6,14 +6,14 @@
 </head>
 <body>
 <form>
-    <input type="text" name="nhapthang" id="thang">
+    <input type="text" name="nhapthang" id="month">
     <input type="button" name="button" value="Clickme" onclick="showNgay();"/>
 </form>
 <div id="hienthi"></div>
 <script>
     function showNgay() {
-        thang = parseInt(document.getElementById('thang').value);
-        switch (thang) {
+        month = parseInt(document.getElementById("month").value);
+        switch (month) {
             case 1:
             case 3:
             case 5:
@@ -21,19 +21,19 @@
             case 8:
             case 10:
             case 12:
-                document.getElementById('hienthi').innerText='Tháng ' + thang + ' có 31 ngày';
+                document.getElementById("hienthi").innerText="Tháng " + month + " có 31 ngày";
                 break;
             case 2:
-                document.getElementById('hienthi').innerText='Tháng 2 có 28 hoặc 29';
+                document.getElementById("hienthi").innerText="Tháng 2 có 28 hoặc 29";
                 break;
             case 4:
             case 6:
             case 9:
             case 11:
-                document.getElementById('hienthi').innerText='Tháng ' + thang + ' có 30 ngày';
+                document.getElementById("hienthi").innerText="Tháng " + month + " có 30 ngày";
                 break;
             default:
-                document.getElementById('hienthi').innerText='Không phải tháng trong năm!'
+                document.getElementById("hienthi").innerText="Không phải tháng trong năm!"
         }
     }
 </script>

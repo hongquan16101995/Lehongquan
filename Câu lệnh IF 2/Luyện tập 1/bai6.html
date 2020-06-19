@@ -6,18 +6,18 @@
 </head>
 <body>
 <script>
-    let a = +prompt("Doanh số bán hàng: ")
-    let hh;
-    if (a > 100000000) {
-        hh = ("Hoa hồng bằng 10% doanh số")
-    }else if (a > 70000000){
-        hh = ("Hoa hồng bằng 5% doanh số")
-    }else if (a >30000000) {
-        hh = ("Hoa hồng bằng 3% doanh số")
+    let sales = +prompt("Doanh số bán hàng: ")
+    let salescommission;
+    if (sales > 100000000) {
+        salescommission = ("Hoa hồng bằng 10% doanh số")
+    }else if (sales > 70000000){
+        salescommission = ("Hoa hồng bằng 5% doanh số")
+    }else if (sales >30000000) {
+        salescommission = ("Hoa hồng bằng 3% doanh số")
     }else {
-        hh = ("Không có hoa hồng")
+        salescommission = ("Không có hoa hồng")
     }
-    alert(hh);
+    alert(salescommission);
 </script>
 </body>
 </html>

@@ -6,18 +6,18 @@
 </head>
 <body>
 <script>
-    let userName = prompt('UserName?','');
-    if (userName == 'Admin') {
-        let password = prompt('Password?','');
+    let userName = prompt("UserName?");
+    if (userName == "Admin") {
+        let password = prompt("Password?");
         if (password == 'TheMaster') {
-            alert('Welcome!');
+            alert("Welcome!");
         } else if (password == null) {
-            alert('Canceled!');
+            alert("Canceled!");
         } else {
-            alert('Wrong password!');
+            alert("Wrong password!");
         }
     } else if (userName == null) {
-        alert('Canceled!');
+        alert("Canceled!");
     } else {
         alert("I don't know you!");
     }

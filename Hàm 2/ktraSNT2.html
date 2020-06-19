@@ -16,9 +16,9 @@
         }
         return true;
     }
-    function display(value) {
+    function display(value,number) {
         let chuoi="";
-        while (value<10000) {
+        while (value<number) {
             if (isPrime(value) == true) {
                 chuoi+=document.write(value + " ")
             }
@@ -27,8 +27,8 @@
         return chuoi
     }
     let value=2;
-    display(value);
-
+    let num= +prompt("Nhập số: ");
+    display(value,num);
 </script>
 </body>
 </html>

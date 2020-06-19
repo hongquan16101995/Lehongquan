@@ -20,23 +20,23 @@
     }
 
     //hàm ktra value có trong mảng hay k, lấy vị trí phần tử và xóa phần tử đó
-    function ktraValue(a) {
+    function checkValue(a) {
         let value = +prompt("Nhập vào giá trị cần tim: ");
         a.includes(value)
-        let chiso = a.indexOf(value)
-        a.splice(chiso, 1)
+        let index = a.indexOf(value)
+        a.splice(index, 1)
         return a
     }
 
     //hàm thêm vào 1 value ở đầu mảng
-    function themValue(a) {
+    function addValue(a) {
         let value = +prompt("Nhập vào giá trị cần tim: ");
         a.unshift(value)
         return a
     }
 
     //hàm sắp xếp mảng số từ nhở đến lớn
-    function sapxepArr(a) {
+    function sortArr(a) {
         let value = +prompt("Nhập vào giá trị cần tim: ");
         a.unshift(value);
         a.sort(function (a, b) {
@@ -46,20 +46,20 @@
     }
 
     //hàm đảo ngược mảng và chuyển mảng thành chuỗi (thêm dấu cách)
-    function daomang(a){
+    function reversalArr(a){
         a.reverse()
         a.join(", ")
         return a
     }
     let arr = new Array();
     inputArr(arr);
-    document.write(ktraValue(arr));
+    document.write(checkValue(arr));
     document.write("<br><br>");
-    document.write(themValue(arr));
+    document.write(addValue(arr));
     document.write("<br><br>");
-    document.write(sapxepArr(arr));
+    document.write(sortArr(arr));
     document.write("<br><br>");
-    document.write(daomang(arr));
+    document.write(reversalArr(arr));
 </script>
 </body>
 </html>

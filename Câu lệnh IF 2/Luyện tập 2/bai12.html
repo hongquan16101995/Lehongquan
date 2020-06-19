@@ -6,13 +6,15 @@
 </head>
 <body>
 <script>
-    let a = +prompt('Số tiền ban đầu: ');
-    let b = +prompt('Số tháng');
-    let c = 5/100;
-    let d = 1;
-    if (d < b){
-
+    let money = +prompt("Số tiền ban đầu là: ");
+    let interest_rate = +prompt("Lãi suất là: ");
+    let month = +prompt("Số tháng gửi là: ");
+    let interest;
+    for (let i=1;i<=month;i++){
+        interest=(money*interest_rate);
+        money+=interest;
     }
+    document.write("Số tiền nhận được là :" + money)
 </script>
 </body>
 </html>

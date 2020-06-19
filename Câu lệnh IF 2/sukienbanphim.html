@@ -5,20 +5,20 @@
     <title>Sự kiện bàn phím</title>
 </head>
 <body onload="docReady()">
-<img id = 'anh' src="tải%20xuống.jpg" style="position:absolute;left: 50px; top: 50px" height="200px" width="160px"/>
+<img id = "img" src="tải%20xuống.jpg" style="position:absolute;left: 50px; top: 50px" height="200px" width="160px"/>
 <script>
     function upArow() {
-        let element = document.getElementById('anh');
-        element.style.top = parseInt(element.style.top) - 5 +'px';
+        let element = document.getElementById("img");
+        element.style.top = parseInt(element.style.top) - 5 +"px";
     }function downArow() {
-        let element = document.getElementById('anh');
-        element.style.top = parseInt(element.style.top) + 5 +'px';
+        let element = document.getElementById("img");
+        element.style.top = parseInt(element.style.top) + 5 +"px";
     }function leftArow() {
-        let element = document.getElementById('anh');
-        element.style.left = parseInt(element.style.left) - 5 +'px';
+        let element = document.getElementById("img");
+        element.style.left = parseInt(element.style.left) - 5 +"px";
     }function rightArow() {
-        let element = document.getElementById('anh');
-        element.style.left = parseInt(element.style.left) + 5 +'px';
+        let element = document.getElementById("img");
+        element.style.left = parseInt(element.style.left) + 5 +"px";
     }
     function moveSelection(evt) {
         switch (evt.keyCode) {
