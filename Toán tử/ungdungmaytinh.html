@@ -30,32 +30,32 @@
             </td>
         </tr><br><br>
     </table>
-    <div id="hienra"></div>
+    <div id="result"></div>
 </form>
 <script>
     function showResult() {
-        let a = parseFloat(document.getElementById('number1').value);
-        let b = parseFloat(document.getElementById('number2').value);
-        let c = a+b;
-        document.getElementById('hienra').innerHTML='ResultAddition: ' + c
+        let num1 = parseFloat(document.getElementById("number1").value);
+        let num2 = parseFloat(document.getElementById("number2").value);
+        let add = num1+num2;
+        document.getElementById("result").innerHTML="ResultAddition: " + add;
     }
     function showResult2() {
-        let a = document.getElementById('number1').value;
-        let b = document.getElementById('number2').value;
-        let d = a-b;
-        document.getElementById('hienra').innerHTML='ResultSubtraction: ' + d
+        let num1 = document.getElementById("number1").value;
+        let num2 = document.getElementById("number2").value;
+        let sub = num1-num2;
+        document.getElementById("result").innerHTML="ResultSubtraction: " + sub;
     }
     function showResult3() {
-        let a = document.getElementById('number1').value;
-        let b = document.getElementById('number2').value;
-        let e = a*b;
-        document.getElementById('hienra').innerHTML='ResultMultiplication: ' + e
+        let num1 = document.getElementById("number1").value;
+        let num2 = document.getElementById("number2").value;
+        let multi = num1*num2;
+        document.getElementById("result").innerHTML="ResultMultiplication: " + multi;
     }
     function showResult4() {
-        let a = document.getElementById('number1').value;
-        let b = document.getElementById('number2').value;
-        let f = a/b;
-        document.getElementById('hienra').innerHTML='ResultDivision: ' + f
+        let num1 = document.getElementById("number1").value;
+        let num2 = document.getElementById("number2").value;
+        let div = num1/num2;
+        document.getElementById("result").innerHTML="ResultDivision: " + div;
     }
 </script>
 </body>

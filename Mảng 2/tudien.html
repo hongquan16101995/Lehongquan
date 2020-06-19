@@ -5,27 +5,27 @@
     <title>Title</title>
 </head>
 <body>
-<label><input type="text" size="30" value="" id="tucantim"></label><br><br>
-<button onclick="ktra()">Dịch</button><br><br>
-<label><input type="text" size="30" value="" id="tuhienthi" disabled></label><br><br>
+<label><input type="text" size="30" value="" id="input"></label><br><br>
+<button onclick="check()">Dịch</button><br><br>
+<label><input type="text" size="30" value="" id="output" disabled></label><br><br>
 <script>
-    function ktra() {
+    function check() {
         let boardEng = ["City", "Countryside", "Villa", "Car", "Color"];
         let boardVn = ["Thành phố", "Nông thôn", "Biệt thự", "Ôtô", "Màu sắc"];
-        let x = document.getElementById("tucantim").value;
-        let ketqua;
+        let x = document.getElementById("input").value;
+        let result;
         for (let i = 0; i < boardEng.length; i++) {
-            ketqua=true;
+            result=true;
             if (x == boardEng[i]) {
-                document.getElementById("tuhienthi").value = boardVn[i];
+                document.getElementById("output").value = boardVn[i];
                 break;
             }
             if(x!=boardEng[i]) {
-                ketqua=false;
+                result=false;
             }
         }
-        if(ketqua==false){
-            document.getElementById("tuhienthi").value = ""
+        if(result==false){
+            document.getElementById("output").value = ""
             alert("Không tìm thấy!")
         }
     }

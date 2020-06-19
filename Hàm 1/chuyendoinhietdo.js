@@ -1,9 +1,9 @@
-function tinhDoC(doF){
-    let doC = (doF-32)/1.8
-    return doC
+function calTempC(tempF){
+    let tempC = (tempF-32)/1.8
+    return tempC
 }
-function ketqua() {
-    let doF = document.getElementById("nhapvao").value;
-    let ketqua = tinhDoC(doF);
-    document.getElementById("xuatra").innerHTML = ketqua;
+function result() {
+    let tempF = document.getElementById("input").value;
+    let result = calTempC(tempF);
+    document.getElementById("output").innerHTML = result;
 }

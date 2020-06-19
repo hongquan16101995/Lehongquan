@@ -6,26 +6,20 @@
 </head>
 <body>
 <script>
-    let diemly;
-    let diemhoa;
-    let diemsinh;
-    diemly = prompt('Điểm Vật lý');
-    diemhoa = prompt('Điểm Hóa học');
-    diemsinh = prompt('Điểm Sinh học');
-    let ly = parseInt(diemly);
-    let hoa = parseInt(diemhoa);
-    let sinh = parseInt(diemsinh);
-    let sum = ly+hoa+sinh
-    let aveg = (ly+hoa+sinh)/3;
-    document.write('Điểm Lý: ' + diemly);
-    document.write('</br>');
-    document.write('Điểm Hóa: ' + diemhoa);
-    document.write('</br>');
-    document.write('Điểm Sinh: ' + diemsinh);
-    document.write('</br>');
-    document.write('Điểm tổng 3 môn: ' + sum);
-    document.write('</br>');
-    document.write('Điểm trung bình 3 môn: ' + aveg)
+    let pointPhysic = +prompt("Điểm Vật lý");
+    let pointChemistry = +prompt("Điểm Hóa học");
+    let pointTechnology = +prompt("Điểm Sinh học");
+    let sum = pointPhysic+pointChemistry+pointTechnology
+    let aveg = (pointPhysic+pointChemistry+pointTechnology)/3;
+    document.write("Điểm Lý: " + pointPhysic);
+    document.write("</br>");
+    document.write("Điểm Hóa: " + pointChemistry);
+    document.write("</br>");
+    document.write("Điểm Sinh: " + pointTechnology);
+    document.write("</br>");
+    document.write("Điểm tổng 3 môn: " + sum);
+    document.write("</br>");
+    document.write("Điểm trung bình 3 môn: " + aveg);
 </script>
 </body>
 </html>

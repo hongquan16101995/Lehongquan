@@ -9,7 +9,7 @@
     let arr = [1,2,3,4,5,6,7,8,9,10];
     let value = +prompt("Nhập vào 1 số V là: ");
     let i=0;
-    function ktra() {
+    function check() {
         for (i; i < arr.length; i++) {
             if (value == arr[i]) {
                 return true;
@@ -17,7 +17,7 @@
         }
         return false;
     }
-    if (ktra()){
+    if (check()){
         alert("Value is in the array")
     }else
         alert("Value is not in the array")

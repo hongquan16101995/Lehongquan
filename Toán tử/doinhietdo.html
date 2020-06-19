@@ -6,11 +6,9 @@
 </head>
 <body>
 <script>
-    let doCelsius;
-    doCelsius = prompt('Nhiệt độ C');
-    let doC = parseInt(doCelsius);
-    let doF = doC*9/5+32;
-    document.write('Độ F: ' + doF)
+    let tempCelsius = +prompt("Nhiệt độ C là: ");
+    let tempF = tempCelsius*9/5+32;
+    document.write('Độ F: ' + tempF);
 </script>
 </body>
 </html>

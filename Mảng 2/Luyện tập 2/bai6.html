@@ -16,7 +16,7 @@
             a[i] = prompt("Nhập vào giá trị thứ "+i+": ");
         }
     }
-    function thay(a){
+    function replaceElement(a){
         for (let i=0;i<a.length;i++){
             if(a[i]=="-"){
                 a[i]= "_"
@@ -26,7 +26,7 @@
     }
     let array = new Array();
     inputArray(array);
-    document.write("Mảng mới là: "+thay(array));
+    document.write("Mảng mới là: "+replaceElement(array));
 </script>
 </body>
 </html>
