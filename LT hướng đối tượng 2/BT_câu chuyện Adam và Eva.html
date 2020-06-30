@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Apple = function (weight) {
+        this.weight = weight
+        this.getWeight = function () {
+            return this.weight
+        }
+        this.decreaseWeight = function () {
+            this.weight--
+        }
+        this.isEmpty = function (weight) {
+            if (weight === 0){
+                return true
+            }
+            return false
+        }
+    }
+
+    let Human = function (name,weight,boolean) {
+        this.name = name;
+        this.weight = weight;
+        this.gender = boolean;
+        this.getName = function () {
+            return this.name
+        }
+        this.setName = function (name) {
+            this.name = name
+        }
+        this.getWeight = function () {
+            return this.weight
+        }
+        this.setWeight = function (weight) {
+            this.weight = weight
+        }
+        this.setGender = function (boolean) {
+            if (boolean === true){
+                this.gender = "Male"
+            }else
+                this.gender = "Female"
+        }
+        this.isMale = function () {
+            if (this.gender === "Male" || this.gender === true){
+                document.write(this.name + " là con trai" + "<br>")
+            }else
+                document.write(this.name + " là con gái" + "<br>")
+        }
+        this.sayString = function (string) {
+            document.write(this.name + ": " + string + "<br>")
+        }
+        this.eatApple = function (apple) {
+                this.weight++;
+                document.write(this.weight + "<br>");
+                apple.decreaseWeight();
+                document.write(apple.getWeight() + "<br>")
+            }
+        this.checkApple = function (apple) {
+            if (apple.getWeight() > 0){
+                this.eatApple(apple)
+            }else
+                alert("Hết táo rồi!")
+        }
+    }
+
+    let apple = new Apple(10);
+    let male = new Human("Adam", 55);
+    male.setGender(true);
+    male.isMale();
+    let female = new Human("Eva", 45);
+    female.setGender(false);
+    female.isMale();
+
+    let say = "Hello";
+    let say2 = "Hi";
+    male.sayString(say);
+    female.sayString(say2);
+
+    function HumanEatApple() {
+        male.checkApple(apple, male.getWeight());
+        female.checkApple(apple, female.getWeight());
+        setTimeout(HumanEatApple, 2000);
+    }
+    HumanEatApple();
+
+</script>
+</body>
+</html>

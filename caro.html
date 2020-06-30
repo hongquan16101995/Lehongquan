@@ -9,6 +9,7 @@
             border-collapse: collapse;
         }
         td {
+            text-align: center;
             width: 50px;
             height: 50px;
         }
@@ -21,11 +22,19 @@
         for (let i=0;i<N;i++){
             string+="<tr>";
             for (let j=0;j<N;j++){
-                string+="<td onclick='displayXO'>"
+                string+="<td onclick=displayXO(this)>"
             }
         }
         string+="<table>";
         document.write(string)
+    }
+    let flag = "X";
+    function displayXO(element){
+        element.innerHTML=flag;
+        if(flag=="X"){
+            flag="O"
+        }else
+            flag="X"
     }
     let N= +prompt("Nhập vào số hàng: ")
     drawGame(N)

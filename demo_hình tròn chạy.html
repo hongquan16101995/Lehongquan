@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas" width="700px" height="500px" style="border: 1px solid"></canvas>
+<script>
+    const RADIUS = Math.random()*50;
+    let speedX = 2;
+    let speedY = 2;
+    let canvas;
+    let context;
+    let reqAnimation;
+    let _angle = 0;
+
+    function update(time) {
+
+        cx += speedX;
+        cy += speedY;
+        if(cx<0 || cx > canvas.width)
+            speedX = -speedX;
+
+        if(cy<0 || cy > canvas.height)
+            speedY = -speedY;
+
+        // draw
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.beginPath();
+        context.arc(cx, cy, RADIUS, 0, Math.PI*2, false);
+        context.closePath();
+        context.fill();
+
+        reqAnimation(update);
+    }
+    function getRandomHex(){
+        return Math.floor(Math.random()*255);
+    }
+    function getRandomColor(){
+        let red = getRandomHex();
+        let green = getRandomHex();
+        let blue = getRandomHex();
+        return "rgb(" + red + "," + blue + "," + green +")";
+    }
+    window.onload = function(){
+        canvas  = document.getElementById("canvas");
+        context = canvas.getContext("2d");
+        context.fillStyle = getRandomColor();
+        cx = canvas.width/(Math.random()*10);
+        cy = canvas.height/(Math.random()*10);
+
+        reqAnimation = window.requestAnimationFrame    ||
+            window.mozRequestAnimationFrame     ||
+            window.webkitRequestAnimationFrame  ||
+            window.msRequestAnimationFrame      ||
+            window.oRequestAnimationFrame       ;
+
+        if(reqAnimation)
+            update();
+        else
+            alert("Your browser doesn't support requestAnimationFrame.");
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Battery = function () {
+
+        this.setEnergy = function (energy) {
+            this.energy = energy;
+        }
+
+        this.getEnergy = function () {
+            return this.energy;
+        }
+
+        this.decreaseEnergy = function () {
+            this.energy--
+            }
+    }
+    let FlashLamp = function () {
+
+        this.setBattery = function (battery) {
+            this.battery = battery;
+        }
+
+        this.getBatteryInfo = function () {
+            return this.battery.getEnergy();
+        }
+
+        this.light = function () {
+            if(this.status){
+                document.write("Lighting"+"<br>");
+            } else {
+                document.write("Not lighting"+"<br>");
+            }
+        }
+
+        this.turnOn = function () {
+            battery.decreaseEnergy();
+            this.status = true;
+        }
+
+        this.turnOff = function () {
+            this.status = false;
+        }
+    }
+    let SwitchButton = function () {
+
+        this.setSwitch = function (lamp) {
+            this.FlashLamp = lamp
+        }
+
+        this.switchOn = function () {
+        }
+
+    }
+    let battery = new Battery();
+    battery.setEnergy(10);
+
+    let flashLamp = new FlashLamp();
+    flashLamp.setBattery(battery);
+
+    flashLamp.light();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+
+    document.write("Turn on<br/>")
+    flashLamp.turnOn();
+    flashLamp.light();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+
+    document.write("Turn off<br/>")
+    flashLamp.turnOff();
+    flashLamp.light();
+</script>
+</body>
+</html>
