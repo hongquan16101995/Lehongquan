@@ -17,7 +17,7 @@
         }
 
         this.decreaseEnergy = function () {
-            this.energy--
+            this.energy--;
             }
     }
     let FlashLamp = function () {
@@ -47,13 +47,23 @@
             this.status = false;
         }
     }
-    let SwitchButton = function () {
+    let SwitchButton = function (lamp) {
+        this.lamp = lamp;
 
         this.setSwitch = function (lamp) {
-            this.FlashLamp = lamp
+            if(this.status){
+                lamp.turnOn();
+            }else{
+                lamp.turnOff();
+            }
         }
 
         this.switchOn = function () {
+            this.status = true;
+        }
+
+        this.switchOff = function () {
+            this.status = false;
         }
 
     }
@@ -74,6 +84,18 @@
     document.write("Turn off<br/>")
     flashLamp.turnOff();
     flashLamp.light();
+
+    let switch1 = new SwitchButton(flashLamp);
+    switch1.switchOn();
+    switch1.setSwitch(flashLamp);
+    flashLamp.light();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+
+    switch1.switchOff();
+    switch1.setSwitch(flashLamp);
+    flashLamp.light();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+
 </script>
 </body>
 </html>
