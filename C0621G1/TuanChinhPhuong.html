@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let arr = [1, 16, 81]
+    // let arr1 = [];
+    // for (let i = 0; i < arr.length; i++) {
+    //     for (let j = 0; j < arr[i]; j++) {
+    //         if (j * j === arr[i]) {
+    //             arr1.push(arr[i])
+    //         }
+    //     }
+    // }
+    // document.write(arr1)
+
+    // for thiếu
+    // let arr = []
+    // let i = 0;
+    // for (; i < 10; i++) {
+    //     arr.push(i)
+    // }
+    // document.write(arr)
+    // document.write("<br>")
+    //
+    // let arr1 = []
+    // for (let j = 0; j < 10;) {
+    //     arr1.push(j)
+    //     j++
+    // }
+    // document.write(arr1)
+
+    // for (let i = 0; i <= 10; i++) {
+    //     for (let j = i; j <= 10; j++) {
+    //         if (i + j === 10) {
+    //             document.write(i + " và " + j + "<br>")
+    //         }
+    //     }
+    // }
+
+    // let arr = [1, 2, 3, 4, 6, 4, 8, 9, 10]
+    // let arr2 = []
+    //
+    // function check(arr) {
+    //     for (let i = 0; i < arr.length; i++) {
+    //         if (arr[i + 1] !== arr[i] + 1) {
+    //             arr.splice(i + 1, 1)
+    //         }
+    //     }
+    //     return arr
+    // }
+    //
+    // document.write(check(arr))
+
+    let arr = [1, 2, 3, 4, 6, 4, 8, 9, 10]
+    let element = 7
+    function insert_first_position($arr, $element) {
+        for (let i = arr.length - 1; i >= 0; i--) {
+            arr[i + 1] = arr[i]
+        }
+        arr[0] = $element
+        return arr
+    }
+
+    alert(insert_first_position(arr, element))
+</script>
+</body>
+</html>

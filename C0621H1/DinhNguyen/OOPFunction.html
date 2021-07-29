@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Car(weight, height, countOfTire) {
+        this.weight = weight;
+        this.height = height;
+        this.countOfTire = countOfTire;
+
+        this.getWeight = function () {
+            return this.weight
+        }
+
+        this.getHeight = function () {
+            return this.height
+        }
+
+        this.getCountOfTire = function () {
+            return this.countOfTire
+        }
+
+        this.setWeight = function (weight) {
+            this.weight = weight
+        }
+
+        this.setHeight = function (height) {
+            this.height = height
+        }
+
+        this.setCountOfTire = function (countOfTire) {
+            this.countOfTire = countOfTire
+        }
+
+        this.go = function () {
+            document.write("Xe dang đi")
+        }
+
+        this.start = function () {
+            document.write("Xe bắt đầu đi")
+        }
+
+        this.stop = function () {
+            document.write("Xe dừng")
+        }
+    }
+</script>
+</body>
+</html>

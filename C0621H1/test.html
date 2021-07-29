@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let grades = [73,67,38,33]
+    for (let i = 0; i < grades.length; i++) {
+        if (grades[i] >= 38) {
+            let check = grades[i] % 5
+            if (check >= 3) {
+                grades[i] = grades[i] - check + 5
+            }
+        }
+    }
+    alert(grades)
+</script>
+</body>
+</html>

@@ -5,7 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-<canvas id="myCanvas" width="500" height="500" style="border:1px solid black;"></canvas>
+<input type="text" id="chieudai"><input type="text" id="chieurong">
+<button onclick="draw()">Draw</button>
+<canvas id="myCanvas"  style="border:1px solid black;width: 100%; height: 100%"></canvas>
 <script>
     let Rectangle = function (width, length) {
         this.width = width;
@@ -30,20 +32,28 @@
         }
         this.drawRectangle = function () {
             let ctx = document.getElementById("myCanvas").getContext("2d");
+            ctx.clearRect(0,0, window.innerWidth, window.innerHeight)
             ctx.fillStyle="blue";
-            ctx.fillRect(100,100,this.length,this.width);
+            ctx.fillRect(0,0,this.length,this.width);
         }
     }
-    let rectangle = new Rectangle(100,200);
-    rectangle.setLength(300);
-    rectangle.setWidth(200);
-    let dai = rectangle.getLength();
-    let rong = rectangle.getWidth();
-    alert("Chiều dài: "+dai+"; "+"Chiều rộng: "+rong);
-    let chuvi = rectangle.getPerimeter();
-    let dientich = rectangle.getAcreage();
-    alert("Chu vi: "+chuvi+"; "+"Diện tích: "+dientich);
-    rectangle.drawRectangle();
+
+    function draw() {
+        let chieudai = document.getElementById("chieudai").value
+        let chieurong = document.getElementById("chieurong").value
+        let newRect = new Rectangle(chieurong, chieudai)
+        newRect.drawRectangle()
+    }
+    // let rectangle = new Rectangle(100,200);
+    // rectangle.setLength(300);
+    // rectangle.setWidth(200);
+    // let dai = rectangle.getLength();
+    // let rong = rectangle.getWidth();
+    // alert("Chiều dài: "+dai+"; "+"Chiều rộng: "+rong);
+    // let chuvi = rectangle.getPerimeter();
+    // let dientich = rectangle.getAcreage();
+    // alert("Chu vi: "+chuvi+"; "+"Diện tích: "+dientich);
+    // rectangle.drawRectangle();
 </script>
 </body>
 </html>
