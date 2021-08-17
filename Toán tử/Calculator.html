@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td colspan="2">
+                <label for="number1"></label><input type="number" name="nhap1" id="number1">
+            </td>
+            <td colspan="2">
+                <label for="number2"></label><input type="number" name="nhap2" id="number2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" name="cong" id="addition" onclick="showResult1()">Addition(+)</button>
+            </td>
+            <td>
+                <button type="button" name="tru" id="subtraction" onclick="showResult2()">Subtraction(-)</button>
+            </td>
+            <td>
+                <button type="button" name="nhan" id="multiplication" onclick="showResult3()">Multiplication(x)</button>
+            </td>
+            <td>
+                <button type="button" name="chia" id="division" onclick="showResult4()">Division(/)</button>
+            </td>
+        </tr>
+        <br><br>
+    </table>
+    <div id="result"></div>
+</form>
+<script>
+    function showResult1() {
+        let num1 = parseFloat(document.getElementById("number1").value);
+        let num2 = parseFloat(document.getElementById("number2").value);
+        let add = num1 + num2;
+        document.getElementById("result").innerHTML = "ResultAddition: " + add;
+    }
+
+    function showResult2() {
+        let num1 = document.getElementById("number1").value;
+        let num2 = document.getElementById("number2").value;
+        let sub = num1 - num2;
+        document.getElementById("result").innerHTML = "ResultSubtraction: " + sub;
+    }
+
+    function showResult3() {
+        let num1 = document.getElementById("number1").value;
+        let num2 = document.getElementById("number2").value;
+        let multi = num1 * num2;
+        document.getElementById("result").innerHTML = "ResultMultiplication: " + multi;
+    }
+
+    function showResult4() {
+        let num1 = document.getElementById("number1").value;
+        let num2 = document.getElementById("number2").value;
+        let div = num1 / num2;
+        document.getElementById("result").innerHTML = "ResultDivision: " + div;
+    }
+
+    function showResult(id) {
+        let num1 = parseFloat(document.getElementById("number1").value);
+        let num2 = parseFloat(document.getElementById("number2").value);
+        switch (id) {
+            case "addition":
+                let add = num1 + num2;
+                document.getElementById("result").innerHTML = "ResultAddition: " + add;
+                break;
+            case "subtraction":
+                let sub = num1 - num2;
+                document.getElementById("result").innerHTML = "ResultSubtraction: " + sub;
+                break;
+            case "multiplication":
+                let multi = num1 * num2;
+                document.getElementById("result").innerHTML = "ResultMultiplication: " + multi;
+                break;
+            case "division":
+                let div = num1 / num2;
+                document.getElementById("result").innerHTML = "ResultDivision: " + div;
+                break;
+        }
+    }
+</script>
+</body>
+</html>

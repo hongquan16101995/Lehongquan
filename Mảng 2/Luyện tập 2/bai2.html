@@ -8,31 +8,32 @@
 <script>
     function inputArr(a) {
         let sizeArr;
-        do{
+        do {
             sizeArr = +prompt("Nhập vào kich thước của mảng: ");
         }
-        while (sizeArr<=0);
+        while (sizeArr <= 0);
 
-        for(let i=0;i<sizeArr;i++){
-            a[i] = prompt("Nhập vào giá trị thứ "+i+" :")
+        for (let i = 0; i < sizeArr; i++) {
+            a[i] = prompt("Nhập vào giá trị thứ " + i + " :")
         }
     }
 
-    function reversalArr(a){
+    function reversalArr(a) {
         let first = 0;
         let last = a.length - 1;
-        while (first<last){
+        while (first < last) {
             let b = a[first];
-            a[first]=a[last];
-            a[last]=b;
+            a[first] = a[last];
+            a[last] = b;
             first++;
             last--;
         }
         return a;
     }
-    let array = new Array();
+
+    let array = [];
     inputArr(array);
-    document.write("Mảng đảo ngược mới là: "+reversalArr(array));
+    document.write("Mảng đảo ngược mới là: " + reversalArr(array));
 </script>
 </body>
 </html>

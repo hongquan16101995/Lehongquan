@@ -1,0 +1,31 @@
+tr:nth-child(odd) td:nth-child(odd) {
+    background: black;
+}
+tr:nth-child(even) td:nth-child(even) {
+    background: black
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 560px;
+    height: 560px;
+}
+
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 40px;
+    height: 40px;
+}
+
+tr th {
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+}
+
+#first th{
+    background-color: yellow;
+    height: 40px;
+}

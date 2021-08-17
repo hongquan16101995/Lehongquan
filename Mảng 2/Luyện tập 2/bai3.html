@@ -8,30 +8,30 @@
 <script>
     function inputArr(a) {
         let sizeArr;
-        do{
+        do {
             sizeArr = +prompt("Nhập vào kich thước của mảng: ");
         }
-        while (sizeArr<=0);
+        while (sizeArr <= 0);
 
-        for(let i=0;i<sizeArr;i++){
-            a[i] = prompt("Nhập vào giá trị thứ "+i+" :")
+        for (let i = 0; i < sizeArr; i++) {
+            a[i] = prompt("Nhập vào giá trị thứ " + i + " :")
         }
     }
 
     //hàm đếm số lượng số trong mảng
-    function countNum(a){
-        let count=0;
-        for (let i=0;i<a.length;i++){
-            if(isNaN(a[i])==false) {
+    function countNum(a) {
+        let count = 0;
+        for (let i = 0; i < a.length; i++) {
+            if (isNaN(a[i]) === false) {
                 count++
             }
         }
         return count
     }
 
-    let array = new Array();
+    let array = [];
     inputArr(array);
-    document.write("Số chữ số trong mảng là: " +countNum(array))
+    document.write("Số chữ số trong mảng là: " + countNum(array))
 </script>
 </body>
 </html>

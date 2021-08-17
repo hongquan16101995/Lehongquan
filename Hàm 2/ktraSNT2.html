@@ -10,25 +10,27 @@
         if (value < 2)
             return false;
         for (let i = 2; i <= Math.sqrt(value); i++) {
-            if (value % i == 0) {
+            if (value % i === 0) {
                 return false;
             }
         }
         return true;
     }
-    function display(value,number) {
-        let chuoi="";
-        while (value<number) {
-            if (isPrime(value) == true) {
-                chuoi+=document.write(value + " ")
+
+    function display(value, number) {
+        let string = "";
+        while (value < number) {
+            if (isPrime(value) === true) {
+                string += document.write(value + " ")
             }
             value++
         }
-        return chuoi
+        return string
     }
-    let value=2;
-    let num= +prompt("Nhập số: ");
-    display(value,num);
+
+    let value = 2;
+    let num = +prompt("Nhập số: ");
+    display(value, num);
 </script>
 </body>
 </html>

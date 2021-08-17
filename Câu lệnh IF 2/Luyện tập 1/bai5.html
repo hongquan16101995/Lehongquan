@@ -9,18 +9,18 @@
     let a = +prompt("Nhập điểm kiểm tra: ");
     let b = +prompt("Nhập điểm kiểm tra: ");
     let c = +prompt("Nhập điểm kiểm tra: ");
-    let avg = (a + b*2 + c*7)/10;
-    let thongbao;
+    let avg = (a + b * 2 + c * 7) / 10;
+    let notification;
     if (avg >= 8) {
-        thongbao = ('Học sinh giỏi');
-    }else if (avg >= 6.5){
-        thongbao =  ('Học sinh khá');
-    }else if (avg >= 5){
-        thongbao = ('Học sinh TB');
-    }else {
-        thongbao = ('Học sinh yếu');
+        notification = ('Học sinh giỏi');
+    } else if (avg >= 6.5) {
+        notification = ('Học sinh khá');
+    } else if (avg >= 5) {
+        notification = ('Học sinh TB');
+    } else {
+        notification = ('Học sinh yếu');
     }
-    alert(thongbao);
+    alert(notification);
 </script>
 </body>
 </html>

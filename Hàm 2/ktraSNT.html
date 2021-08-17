@@ -6,21 +6,23 @@
 </head>
 <body>
 <script>
-    let value= +prompt("Nhập vào 1 số bất kỳ: ")
+    let value = +prompt("Nhập vào 1 số bất kỳ: ")
+
     function isPrime(value) {
-        if (value<2)
+        if (value < 2)
             return false;
-        for (i=2;i<=Math.sqrt(value);i++){
-            if (value%i==0){
+        for (let i = 2; i <= Math.sqrt(value); i++) {
+            if (value % i === 0) {
                 return false;
             }
         }
         return true;
     }
-    if (isPrime(value)==true){
-        alert(value+" là số nguyên tố")
-    }else
-        alert(value+" không là số nguyên tố")
+
+    if (isPrime(value) === true) {
+        alert(value + " là số nguyên tố")
+    } else
+        alert(value + " không là số nguyên tố")
 
 </script>
 </body>

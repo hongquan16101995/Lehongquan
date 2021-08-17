@@ -5,7 +5,7 @@
     <title>SimpleForm</title>
     <style>
         .wufoo {
-            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
         }
     </style>
 </head>
@@ -13,24 +13,44 @@
 <form method="get" action="formcoban-orderform.html" class="wufoo">
     <h1>Order form</h1>
     <p>What would you like to buy?</p>
-    <select>
-        <option value="A">A</option>
-        <option>B (+  0.5$)</option>
-        <option>C (+  0.5$)</option>
-    </select>
-    <p>How  many would you like to order?</p>
-    <input type="radio" name="rd"/> 1 - $10 <br/>
-    <input type="radio" name="rd"/> 2 - $20 <br/>
-    <input type="radio" name="rd"/> 3 - $25 <br/>
-    <p>Name <span style="color: red">*</span> </p>
-    <input type="text" name="firstname" placeholder="FirstName" size="15"/>
-    <input type="text" name="lastname" placeholder="LastName" size="15"/>
+    <label>
+        <select>
+            <option value="A">A</option>
+            <option>B (+ 0.5$)</option>
+            <option>C (+ 0.5$)</option>
+        </select>
+    </label>
+    <p>How many would you like to order?</p>
+    <label>
+        <input type="radio" name="rd"/>
+    </label> 1 - $10 <br/>
+    <label>
+        <input type="radio" name="rd"/>
+    </label> 2 - $20 <br/>
+    <label>
+        <input type="radio" name="rd"/>
+    </label> 3 - $25 <br/>
+    <p>Name <span style="color: red">*</span></p>
+    <label>
+        <input type="text" name="firstname" placeholder="FirstName" size="15"/>
+    </label>
+    <label>
+        <input type="text" name="lastname" placeholder="LastName" size="15"/>
+    </label>
     <p>Email</p>
-    <input type="text" name="email" size="35"/>
+    <label>
+        <input type="text" name="email" size="35"/>
+    </label>
     <p>Phone Number</p>
-    <input type="text" name="phone1" size="5"> -
-    <input type="text" name="phone2" size="5"> -
-    <input type="text" name="phone3" size="5">
+    <label>
+        <input type="text" name="phone1" size="5">
+    </label> -
+    <label>
+        <input type="text" name="phone2" size="5">
+    </label> -
+    <label>
+        <input type="text" name="phone3" size="5">
+    </label>
     <p><input type="button" name="btSubmit" value="Submit"/></p>
 </form>
 </body>

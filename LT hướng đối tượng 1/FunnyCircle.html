@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1500px" height="700px" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+    class Circle {
+        x;
+        y;
+        radius;
+
+        constructor(x, y, radius) {
+            this.x = x
+            this.y = y
+            this.radius = radius
+        }
+
+        getRandomHex() {
+            return Math.floor(Math.random() * 255);
+        }
+
+        getRandomColor() {
+            let red = this.getRandomHex();
+            let blue = this.getRandomHex();
+            let green = this.getRandomHex();
+            return "rgb(" + red + "," + blue + "," + green + ")";
+        }
+
+        createCircle() {
+            let ctx = document.getElementById("myCanvas").getContext("2d");
+            let radius = Math.floor(Math.random() * 80); //random bán kính hình tròn từ 0-80
+            let x = Math.random() * window.innerWidth; //random vị trí của hình tròn theo chỉ số cửa sổ window
+            let y = Math.random() * window.innerHeight;
+            let color = this.getRandomColor()
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, 2 * Math.PI);
+            ctx.fillStyle = color;
+            ctx.fill();
+        }
+    }
+
+    let circle = new Circle(100, 100, 50)
+    circle.createCircle()
+
+    function createMultiCircle() {
+        for (let i = 1; i < 5; i++) {
+            circle.createCircle();
+        }
+    }
+
+    createMultiCircle();
+</script>
+</body>
+</html>

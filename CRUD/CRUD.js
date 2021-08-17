@@ -1,4 +1,4 @@
-let productName = ["Đt", "Laptop", "Tv", "Loa", "PC"]
+let productName = []
 
 function drawTable() {
     let data = "<br><table>"
@@ -14,8 +14,8 @@ function drawTable() {
 }
 
 function edit(i) {
-    document.getElementById("edit").value = ""
-    document.getElementById("edit").value += productName[i]
+    productName[i] = prompt("Nhập vào tên mới: ");
+    drawTable()
 }
 
 function deleteP(i) {
@@ -26,9 +26,6 @@ function deleteP(i) {
 function addName() {
     let newProduct = document.getElementById("add").value
     productName.push(newProduct)
+    document.getElementById("add").value = ""
     drawTable()
-}
-
-function editName(i) {
-    let value = document.getElementById("edit").value
 }

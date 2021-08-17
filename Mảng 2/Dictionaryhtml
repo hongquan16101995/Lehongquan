@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label><input type="text" size="30" value="" id="input"></label><br><br>
+<button onclick="check()">Dịch</button>
+<br><br>
+<label><input type="text" size="30" value="" id="output" disabled></label><br><br>
+<script>
+    function check() {
+        let boardEng = ["City", "Countryside", "Villa", "Car", "Color"];
+        let boardVn = ["Thành phố", "Nông thôn", "Biệt thự", "Ôtô", "Màu sắc"];
+        let x = document.getElementById("input").value;
+        let result;
+        for (let i = 0; i < boardEng.length; i++) {
+            result = true;
+            if (x === boardEng[i]) {
+                document.getElementById("output").value = boardVn[i];
+                break;
+            }
+            if (x !== boardEng[i]) {
+                result = false;
+            }
+        }
+        if (result === false) {
+            document.getElementById("output").value = ""
+            alert("Không tìm thấy!")
+        }
+    }
+</script>
+</body>
+</html>

@@ -7,26 +7,28 @@
 <body>
 <script>
     function isPrime(value) {
-        if (value<2)
+        if (value < 2)
             return false;
-        for (i=2;i<=Math.sqrt(value);i++){
-            if (value%i==0){
+        for (let i = 2; i <= Math.sqrt(value); i++) {
+            if (value % i === 0) {
                 return false;
             }
         }
         return true;
     }
+
     function display(num) {
-        let count=0;
-        let value=1;
-        while (count<num){
-            if (isPrime(value)==true){
+        let count = 0;
+        let value = 1;
+        while (count < num) {
+            if (isPrime(value) === true) {
                 count++
                 document.write(value + " ");
             }
             value++
         }
     }
+
     display(+prompt("Nhập số lượng SNT cần tìm: "))
 </script>
 </body>

@@ -1,3 +1,3 @@
-function showMessage(){
-        alert('Xin chào!');
-    }
+function showMessage() {
+    alert('Xin chào!');
+}

@@ -11,22 +11,24 @@
         do {
             sizeArr = +prompt("Nhập vào kích thước của mảng: ")
         }
-        while (sizeArr<=0);
-        for (let i=0;i<sizeArr;i++){
-            a[i] = prompt("Nhập vào giá trị thứ "+i+": ");
+        while (sizeArr <= 0);
+        for (let i = 0; i < sizeArr; i++) {
+            a[i] = prompt("Nhập vào giá trị thứ " + i + ": ");
         }
     }
-    function replaceElement(a){
-        for (let i=0;i<a.length;i++){
-            if(a[i]=="-"){
-                a[i]= "_"
+
+    function replaceElement(a) {
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] === "-") {
+                a[i] = "_"
             }
         }
         return a
     }
-    let array = new Array();
+
+    let array = [];
     inputArray(array);
-    document.write("Mảng mới là: "+replaceElement(array));
+    document.write("Mảng mới là: " + replaceElement(array));
 </script>
 </body>
 </html>

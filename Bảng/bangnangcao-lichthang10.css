@@ -1,0 +1,80 @@
+h2 {
+    color: blue;
+    align-self: center
+}
+
+table {
+    border-collapse: collapse;
+    border: silver;
+    width: 50%;
+    height: 300px
+}
+
+tr {
+    text-align: center
+}
+
+th {
+    color: white;
+    background-color: orange;
+    border-collapse: collapse;
+    width: 14%
+}
+
+td {
+    border-collapse: collapse;
+    border: 2px solid silver;
+}
+
+th.bg {
+    background-color: white;
+    color: black
+}
+
+th.cn {
+    background-color: white;
+    color: red
+}
+
+td.cn {
+    background-color: white;
+    color: red
+}
+
+th.tb {
+    background-color: white;
+    color: blue
+}
+
+td.tb {
+    background-color: white;
+    color: blue
+}
+
+span {
+    font-size: 8px
+}
+
+#tr1 th {
+    border: 2px solid white;
+}
+
+#tr1 .cn {
+    background-color: red;
+    color: white
+}
+
+#tr1 .tb {
+    background-color: blue;
+    color: white
+}
+
+#tr2 {
+    border: 2px;
+    border-bottom-color: silver;
+    text-align: center;
+}
+
+#tr3 {
+    border-top-color: silver;
+}

@@ -15,54 +15,61 @@
             this.weight--
         }
         this.isEmpty = function (weight) {
-            if (weight === 0){
-                return true
-            }
-            return false
+            return weight === 0;
+
         }
     }
 
-    let Human = function (name,weight,boolean) {
+    let Human = function (name, weight, boolean) {
         this.name = name;
         this.weight = weight;
         this.gender = boolean;
+
         this.getName = function () {
             return this.name
         }
+
         this.setName = function (name) {
             this.name = name
         }
+
         this.getWeight = function () {
             return this.weight
         }
+
         this.setWeight = function (weight) {
             this.weight = weight
         }
+
         this.setGender = function (boolean) {
-            if (boolean === true){
+            if (boolean === true) {
                 this.gender = "Male"
-            }else
+            } else
                 this.gender = "Female"
         }
+
         this.isMale = function () {
-            if (this.gender === "Male" || this.gender === true){
+            if (this.gender === "Male" || this.gender === true) {
                 document.write(this.name + " là con trai" + "<br>")
-            }else
+            } else
                 document.write(this.name + " là con gái" + "<br>")
         }
+
         this.sayString = function (string) {
             document.write(this.name + ": " + string + "<br>")
         }
+
         this.eatApple = function (apple) {
-                this.weight++;
-                document.write(this.weight + "<br>");
-                apple.decreaseWeight();
-                document.write(apple.getWeight() + "<br>")
-            }
+            this.weight++;
+            document.write(this.weight + "<br>");
+            apple.decreaseWeight();
+            document.write(apple.getWeight() + "<br>")
+        }
+
         this.checkApple = function (apple) {
-            if (apple.getWeight() > 0){
+            if (apple.getWeight() > 0) {
                 this.eatApple(apple)
-            }else
+            } else
                 alert("Hết táo rồi!")
         }
     }
@@ -85,8 +92,8 @@
         female.checkApple(apple, female.getWeight());
         setTimeout(HumanEatApple, 2000);
     }
-    HumanEatApple();
 
+    HumanEatApple();
 </script>
 </body>
 </html>

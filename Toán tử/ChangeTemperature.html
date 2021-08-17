@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td>From</td>
+            <td>To</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="amount"></label><input id="amount" name="amount"></td>
+            <td><label for="from"></label><select id="from">
+                <option value="VND">VND</option>
+                <option value="Dollar">Dollar</option>
+            </select></td>
+            <td><label for="to"></label><select id="to">
+                <option value="VND">VND</option>
+                <option value="Dollar">Dollar</option>
+            </select></td>
+            <td>
+                <button type="button" onclick="changeMoney()">Convert</button>
+            </td>
+        </tr>
+    </table>
+    <p>Result:&nbsp;<span id="convert"></span></p>
+</form>
+
+<script>
+    function changeMoney() {
+        let amount = parseInt(document.getElementById("amount").value);
+        let from = document.getElementById("from").value;
+        let to = document.getElementById("to").value;
+        let convert;
+        if (from === "Dollar" && to === "VND") {
+            convert = (amount * 23000);
+        } else if (from === "VND" && to === "Dollar") {
+            convert = (amount / 23000);
+        } else {
+            convert = amount;
+        }
+        document.getElementById("convert").innerHTML = convert;
+    }
+</script>
+</body>
+</html>

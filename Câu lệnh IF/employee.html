@@ -7,11 +7,11 @@
 <body>
 <script>
     let login = prompt("Nhập: ");
-    let message = (login == 'Employee') ?
+    let message = (login === 'Employee') ?
         'Hello' :
-        (login == 'Director') ?
+        (login === 'Director') ?
             'Greetings' :
-            (login == '') ?
+            (login === '') ?
                 'No login' :
                 '';
     alert(message);

@@ -9,85 +9,85 @@
     //hàm khởi tạo mảng
     function inputArr(a) {
         let sizeArr;
-        do{
+        do {
             sizeArr = +prompt("Nhập vào kich thước của mảng: ");
         }
-        while (sizeArr<=0);
+        while (sizeArr <= 0);
 
-        for(let i=0;i<sizeArr;i++){
-            a[i] = +prompt("Nhập vào giá trị thứ "+i+" :")
+        for (let i = 0; i < sizeArr; i++) {
+            a[i] = +prompt("Nhập vào giá trị thứ " + i + " :")
         }
     }
 
     //hàm hiển thị mảng
-    function display(a){
-        for (let i=0;i<a.length;i++){
-            document.write(a[i]+", ")
+    function display(a) {
+        for (let i = 0; i < a.length; i++) {
+            document.write(a[i] + ", ")
         }
     }
 
     //hàm tìm giá trị lớn nhất trong mảng
-    function maxValue(a){
-        let max=a[0];
-        for(let i=1;i<a.length;i++){
-            if(max<a[i]){
-                max=a[i];
+    function maxValue(a) {
+        let max = a[0];
+        for (let i = 1; i < a.length; i++) {
+            if (max < a[i]) {
+                max = a[i];
             }
         }
         return max;
     }
 
     //hàm tìm giá trị nhỏ nhất trong mảng
-    function minValue(a){
-        let min=a[0];
-        for(let i=1;i<a.length;i++){
-            if(min>a[i]){
-                min=a[i];
+    function minValue(a) {
+        let min = a[0];
+        for (let i = 1; i < a.length; i++) {
+            if (min > a[i]) {
+                min = a[i];
             }
         }
         return min;
     }
 
     //hàm tìm giá trị âm lớn nhất trong mảng
-    function maxnegativeValue(a){
-        let maxnegative=0;
-        for(let i=0;i<a.length;i++){
-            if(a[i]<0){
-                maxnegative=a[i];
+    function maxNegativeValue(a) {
+        let maxNegative = 0;
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] < 0) {
+                maxNegative = a[i];
                 break;
             }
         }
-        for(let i=0;i<a.length;i++){
-            if(a[i]<0&&maxnegative<a[i]){
-                maxnegative=a[i];
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] < 0 && maxNegative < a[i]) {
+                maxNegative = a[i];
             }
         }
-        return maxnegative;
+        return maxNegative;
     }
 
     //hàm tìm giá trị dương nhỏ nhất
-    function minpositiveValue(a){
-        let minpositive=0;
-        for(let i=0;i<a.length;i++){
-            if(a[i]>=0){
-                minpositive=a[i];
+    function minPositiveValue(a) {
+        let minPositive = 0;
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] >= 0) {
+                minPositive = a[i];
                 break;
             }
         }
-        for(let i=0;i<a.length;i++){
-            if(a[i]>=0&&minpositive>a[i]){
-                minpositive=a[i];
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] >= 0 && minPositive > a[i]) {
+                minPositive = a[i];
             }
         }
-        return minpositive;
+        return minPositive;
     }
 
     //hàm đếm xem có trong mảng có bn phần tử là value
-    function countValue(a){
+    function countValue(a) {
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
-        let count=0;
-        for (let i=0;i<a.length;i++){
-            if(a[i]==value){
+        let count = 0;
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] === value) {
                 count++
             }
         }
@@ -95,10 +95,10 @@
     }
 
     //hàm ktra xem value có tồn tại trong mảng hay k
-    function checkValue(a){
+    function checkValue(a) {
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
-        for (let i=0;i<a.length;i++){
-            if(a[i]==value){
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] === value) {
                 return true
             }
         }
@@ -106,94 +106,94 @@
     }
 
     //hàm chèn vào 1 value bất kỳ tại vị trí bất kỳ trong mảng (vị trí < độ dài mảng)
-    function insertValue(a){
+    function insertValue(a) {
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
         let index = +prompt("Nhập vào vị trí của phần tử: ")
-        if(index<=a.length){
-            for (let i=a.length;i>index;i--){
-                a[i]=a[i-1]
+        if (index <= a.length) {
+            for (let i = a.length; i > index; i--) {
+                a[i] = a[i - 1]
             }
-            a[index]=value
+            a[index] = value
         }
         return a
     }
 
     //hàm xóa 1 value bất kỳ tại vị trí bất kỳ trong mảng (value có trong mảng)
     //tham khảo bài xoavalue-demo
-    function deleteValue(a){
+    function deleteValue(a) {
         let value = +prompt("Nhập vào 1 số bất kỳ: ");
-        for (let i=0;i<a.length;i++){
-            if (a[i]==value){
-                a.splice(i,1)
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] === value) {
+                a.splice(i, 1)
             }
         }
         return a
     }
 
     //hàm đảo ngược vị trí phần tử trong mảng
-    function reversalArr(a){
+    function reversalArr(a) {
         let i = 0;
         let j = a.length - 1;
-        for (i,j;i<=j;i++,j--){
-            temp = a[i]
-            a[i]=a[j]
-            a[j]=temp
+        for (i, j; i <= j; i++, j--) {
+            let temp = a[i]
+            a[i] = a[j]
+            a[j] = temp
         }
         return a;
     }
 
 
-    let array = new Array();
+    let array = [];
     inputArr(array);
     display(array);
 
 
     document.write("<br><br>");
-    document.write("<br>Phần tử lớn nhất là: "+maxValue(array));
+    document.write("<br>Phần tử lớn nhất là: " + maxValue(array));
 
 
     document.write("<br><br>");
-    document.write("<br>Phần tử nhỏ nhất là: "+minValue(array));
+    document.write("<br>Phần tử nhỏ nhất là: " + minValue(array));
 
 
     document.write("<br><br>");
-    maxnegative=maxnegativeValue(array);
-    if(maxnegative==0)
+    maxnegative = maxNegativeValue(array);
+    if (maxnegative === 0)
         document.write("<br>Mảng không có số âm! ")
     else
-        document.write("<br> Phần tử âm lớn nhất trong mảng: "+maxnegative);
+        document.write("<br> Phần tử âm lớn nhất trong mảng: " + maxnegative);
 
 
     document.write("<br><br>");
-    minpositive=minpositiveValue(array);
-    if(minpositive==0)
+    minpositive = minPositiveValue(array);
+    if (minpositive === 0)
         document.write("<br>Mảng không có số dương! ")
     else
-        document.write("<br>Phần tử dương nhỏ nhất trong mảng: "+minpositive);
+        document.write("<br>Phần tử dương nhỏ nhất trong mảng: " + minpositive);
 
 
     document.write("<br><br>");
-    document.write("<br>Số lần phần tử xuất hiện là: "+countValue(array));
+    document.write("<br>Số lần phần tử xuất hiện là: " + countValue(array));
 
 
     document.write("<br><br>");
-    check=checkValue(array);
-    if(check==true)
+    check = checkValue(array);
+    if (check === true)
         document.write("<br>Phần tử đã tồn tại trong mảng!")
     else
         document.write("<br>Phần tử không tồn tại trong mảng!")
 
 
     document.write("<br><br>");
-    document.write("<br>Mảng chèn mới là: "+insertValue(array));
+    document.write("<br>Mảng chèn mới là: " + insertValue(array));
 
 
     document.write("<br><br>");
-    document.write("<br>Mảng xóa mới là: "+deleteValue(array));
+    document.write("<br>Mảng xóa mới là: " + deleteValue(array));
 
 
     document.write("<br><br>");
-    document.write("<br>Mảng đảo ngược mới là: "+reversalArr(array));
+    document.write("<br>Mảng đảo ngược mới là: " + reversalArr(array));
 </script>
 </body>
 </html>

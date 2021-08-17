@@ -9,23 +9,23 @@
     let a = +prompt('Nhập a: ');
     let b = +prompt('Nhập b: ');
     let c = +prompt('Nhập c: ');
-    let delta = (b*b - 4*a*c);
+    let delta = (b * b - 4 * a * c);
     let sqrtDelta = Math.sqrt(delta);
-    let x1 = ((-b+sqrtDelta)/(2*a));
-    let x2 = ((-b-sqrtDelta)/(2*a));
-    if (a === 0){
+    let x1 = ((-b + sqrtDelta) / (2 * a));
+    let x2 = ((-b - sqrtDelta) / (2 * a));
+    if (a === 0) {
         if (b === 0) {
-            if (c === 0){
+            if (c === 0) {
                 document.write("Phương trình có vô số nghiệm")
-            }else
+            } else
                 document.write("Phương trình vô nghiệm")
-        }else
+        } else
             document.write("Phương trình có nghiệm là: " + c)
-    }else if(delta === 0){
+    } else if (delta === 0) {
         document.write("Phuownng trình có 2 ngiệm x1, x2 trùng nhau là: " + (-b / (2 * a)))
-    }else if(delta > 0) {
+    } else if (delta > 0) {
         document.write("Phương trình có 2 nghiệm phân biệt là: " + x1 + " và " + x2)
-    }else{
+    } else {
         document.write("Phương trình vô nghiệm")
     }
 </script>

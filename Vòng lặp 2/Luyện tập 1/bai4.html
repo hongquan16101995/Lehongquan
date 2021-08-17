@@ -6,16 +6,16 @@
 </head>
 <body>
 <script>
-    let a=0;
-    let b=1;
-    let c=a+b;
-    let i=0;
-    while (i<=c) {
+    let a = 0;
+    let b = 1;
+    let c = a + b;
+    let i = 0;
+    while (i <= c) {
         i++
         c = a + b
         a = b
         b = c
-        if (c%5 == 0) {
+        if (c % 5 === 0) {
             document.write("Số đầu tiền chia hết cho 5 là: " + c)
             break;
         }

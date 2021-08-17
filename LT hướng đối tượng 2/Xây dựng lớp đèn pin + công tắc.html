@@ -18,8 +18,9 @@
 
         this.decreaseEnergy = function () {
             this.energy--;
-            }
+        }
     }
+
     let FlashLamp = function () {
 
         this.setBattery = function (battery) {
@@ -31,10 +32,10 @@
         }
 
         this.light = function () {
-            if(this.status){
-                document.write("Lighting"+"<br>");
+            if (this.status) {
+                document.write("Lighting" + "<br>");
             } else {
-                document.write("Not lighting"+"<br>");
+                document.write("Not lighting" + "<br>");
             }
         }
 
@@ -47,13 +48,14 @@
             this.status = false;
         }
     }
+
     let SwitchButton = function (lamp) {
         this.lamp = lamp;
 
         this.setSwitch = function (lamp) {
-            if(this.status){
+            if (this.status) {
                 lamp.turnOn();
-            }else{
+            } else {
                 lamp.turnOff();
             }
         }
@@ -67,6 +69,7 @@
         }
 
     }
+
     let battery = new Battery();
     battery.setEnergy(10);
 

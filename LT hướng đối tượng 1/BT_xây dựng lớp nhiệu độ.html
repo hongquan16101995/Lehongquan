@@ -9,7 +9,7 @@
     let Temperature = function (tempC) {
         this.tempC = tempC;
         this.getTempF = function () {
-            return this.tempC*1.8+32
+            return this.tempC * 1.8 + 32
         }
         this.getTempK = function () {
             return this.tempC + 273.15
@@ -18,7 +18,7 @@
     let temperatureC = new Temperature(25);
     let tempF = temperatureC.getTempF();
     let tempK = temperatureC.getTempK();
-    alert("Độ F: "+tempF+"; "+"Độ K: "+tempK);
+    alert("Độ F: " + tempF + "; " + "Độ K: " + tempK);
 </script>
 </body>
 </html>

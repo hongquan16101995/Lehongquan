@@ -7,9 +7,9 @@
 <body>
 <script>
     let userName = prompt("UserName?");
-    if (userName == "Admin") {
+    if (userName === "Admin") {
         let password = prompt("Password?");
-        if (password == 'TheMaster') {
+        if (password === 'TheMaster') {
             alert("Welcome!");
         } else if (password == null) {
             alert("Canceled!");

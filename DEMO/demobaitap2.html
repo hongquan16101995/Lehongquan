@@ -9,13 +9,13 @@
     //hàm khai báo mảng
     function inputArr(a) {
         let sizeArr;
-        do{
+        do {
             sizeArr = +prompt("Nhập vào kich thước của mảng: ");
         }
-        while (sizeArr<=0);
+        while (sizeArr <= 0);
 
-        for(let i=0;i<sizeArr;i++){
-            a[i] = +prompt("Nhập vào giá trị thứ "+i+" :")
+        for (let i = 0; i < sizeArr; i++) {
+            a[i] = +prompt("Nhập vào giá trị thứ " + i + " :")
         }
     }
 
@@ -46,12 +46,13 @@
     }
 
     //hàm đảo ngược mảng và chuyển mảng thành chuỗi (thêm dấu cách)
-    function reversalArr(a){
+    function reversalArr(a) {
         a.reverse()
         a.join(", ")
         return a
     }
-    let arr = new Array();
+
+    let arr = [];
     inputArr(arr);
     document.write(checkValue(arr));
     document.write("<br><br>");

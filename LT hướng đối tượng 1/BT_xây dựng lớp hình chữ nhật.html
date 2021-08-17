@@ -5,55 +5,64 @@
     <title>Title</title>
 </head>
 <body>
-<input type="text" id="chieudai"><input type="text" id="chieurong">
+<label for="length"></label><input type="text" id="length">
+<label for="width"></label><input type="text" id="width">
 <button onclick="draw()">Draw</button>
-<canvas id="myCanvas"  style="border:1px solid black;width: 100%; height: 100%"></canvas>
+<canvas id="myCanvas" style="border:1px solid black;width: 100%; height: 100%"></canvas>
 <script>
     let Rectangle = function (width, length) {
         this.width = width;
         this.length = length;
+
         this.getWidth = function () {
             return this.width
         }
+
         this.getLength = function () {
             return this.length
         }
+
         this.setWidth = function (width) {
             this.width = width
         }
+
         this.setLength = function (length) {
             this.length = length
         }
+
         this.getPerimeter = function () {
-            return (this.width + this.length)*2
+            return (this.width + this.length) * 2
         }
+
         this.getAcreage = function () {
-            return this.width*this.length
+            return this.width * this.length
         }
+
         this.drawRectangle = function () {
             let ctx = document.getElementById("myCanvas").getContext("2d");
-            ctx.clearRect(0,0, window.innerWidth, window.innerHeight)
-            ctx.fillStyle="blue";
-            ctx.fillRect(0,0,this.length,this.width);
+            ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
+            ctx.fillStyle = "blue";
+            ctx.fillRect(0, 0, this.length, this.width);
         }
     }
 
     function draw() {
-        let chieudai = document.getElementById("chieudai").value
-        let chieurong = document.getElementById("chieurong").value
-        let newRect = new Rectangle(chieurong, chieudai)
+        let length = document.getElementById("length").value
+        let width = document.getElementById("width").value
+        let newRect = new Rectangle(width, length)
         newRect.drawRectangle()
     }
-    // let rectangle = new Rectangle(100,200);
-    // rectangle.setLength(300);
-    // rectangle.setWidth(200);
-    // let dai = rectangle.getLength();
-    // let rong = rectangle.getWidth();
-    // alert("Chiều dài: "+dai+"; "+"Chiều rộng: "+rong);
-    // let chuvi = rectangle.getPerimeter();
-    // let dientich = rectangle.getAcreage();
-    // alert("Chu vi: "+chuvi+"; "+"Diện tích: "+dientich);
-    // rectangle.drawRectangle();
+
+    let rectangle = new Rectangle(100, 200);
+    rectangle.setLength(300);
+    rectangle.setWidth(200);
+    let length = rectangle.getLength();
+    let width = rectangle.getWidth();
+    alert("Chiều dài: " + length + "; " + "Chiều rộng: " + width);
+    let perimeter = rectangle.getPerimeter();
+    let area = rectangle.getAcreage();
+    alert("Chu vi: " + perimeter + "; " + "Diện tích: " + area);
+    rectangle.drawRectangle();
 </script>
 </body>
 </html>

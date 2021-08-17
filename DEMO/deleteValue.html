@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //hàm xác định xem phần tử có tồn tại trong mảng hay không
+    function isExist(value, array) {
+        for (let i = 0; i < array.length; i++) {
+            if (value === array[i]) {
+                return i
+            }
+        }
+        return -1;
+    }
+
+    //hàm xóa phần tử đầu tiên nếu tồn tại
+    function deleteValue(value, array) {
+        let index = isExist(value, array);
+        if (index >= 0) {
+            for (let i = index; i < array.length; i++) {
+                array[i] = array[i + 1];
+            }
+            array.length -= 1;
+        }
+        return array
+    }
+
+    //hàm xóa tất cả các phần tử tồn tại
+    function deleteAllValue(value, array) {
+        let index = isExist(value, array);
+        while (index >= 0) {
+            for (let i = index; i < array.length; i++) {
+                array[i] = array[i + 1];
+            }
+            array.length -= 1;
+            index = isExist(value, array);
+        }
+        return array
+    }
+
+
+    let num = [1, 2, 1, 2, 1, 2, 1, 2, 1, 2];
+    let xvalue = +prompt("Nhập vào giá trị muốn xóa: ");
+    document.write("Chỉ số của value: " + isExist(xvalue, num))
+    document.write("<br>Mảng sau khi xóa value 1: " + deleteValue(xvalue, num))
+    document.write("<br>Mảng sau khi xóa tất cả value: " + deleteAllValue(xvalue, num))
+</script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function inputArr(a) {
+        let sizeArr;
+        do {
+            sizeArr = +prompt("Nhập vào kich thước của mảng: ");
+        }
+        while (sizeArr <= 0);
+
+        for (let i = 0; i < sizeArr; i++) {
+            a[i] = +prompt("Nhập vào giá trị thứ " + i + " :")
+        }
+    }
+
+    //hàm sắp xếp lớn đến nhỏ
+    function maxSortArr(a) {
+        for (let i = 0; i < a.length; i++) {
+            for (let j = i + 1; j < a.length; j++) {
+                let temp = 0;
+                if (a[i] > a[j]) {
+                    temp = a[i];
+                    a[i] = a[j]
+                    a[j] = temp
+                }
+            }
+        }
+        return a;
+    }
+
+    //hàm sắp xếp nhỏ đến lớn
+    function minSortArr(a) {
+        for (let i = 0; i < a.length; i++) {
+            for (let j = i + 1; j < a.length; j++) {
+                let temp = 0;
+                if (a[i] < a[j]) {
+                    temp = a[i];
+                    a[i] = a[j]
+                    a[j] = temp
+                }
+            }
+        }
+        return a;
+    }
+
+    //hàm đảo ngược vị trí các phần tử
+    function reversalArr(a) {
+        let i = 0;
+        let j = a.length - 1;
+        let temp = 0;
+        for (i, j; i <= j; i++, j--) {
+            temp = a[i]
+            a[i] = a[j]
+            a[j] = temp
+        }
+        return a
+    }
+
+    let arr = [];
+    inputArr(arr);
+    document.write("Mảng sắp xếp lớn dần: " + maxSortArr(arr));
+    document.write("<br>Mảng sắp xếp nhỏ dần: " + minSortArr(arr));
+    document.write("<br>Mảng sau khi đảo ngược: " + reversalArr(arr));
+</script>
+</body>
+</html>

@@ -3,37 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Thời khóa biểu</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #table1 {
+            width: 750px;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        #table2 {
+            text-align: center;
+            border: 1px solid;
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        #table2 tr th, #table2 tr td {
+            border: 1px solid;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        .yellow th {
+            width: 150px;
+            background-color: yellow;
+        }
+
+        .brown {
+            background-color: rosybrown;
+        }
+
+        .brown th {
+            width: 140px;
+        }
+
+        #week {
+            width: 70px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-<h1 align="center">THỜI KHÓA BIỂU</h1>
-<table align="center" width="750px">
+<h1>THỜI KHÓA BIỂU</h1>
+<table id="table1" align="center">
     <tr>
         <td>Lớp: T0908I</td>
-        <td align="right">Thời gian học: 13h30 - 17h30</td>
+        <td class="right">Thời gian học: 13h30 - 17h30</td>
     </tr>
     <tr>
         <td>Giáo viên: KhoaNV</td>
-        <td align="right">Ngày học: Thứ 3, 5, 7</td>
+        <td class="right">Ngày học: Thứ 3, 5, 7</td>
     </tr>
     <tr>
         <td>Phòng học: Class3/Lab3</td>
     </tr>
 </table>
-<table style="border-collapse: collapse" width="800px" border="1px" align="center" cellpadding="10">
-    <tr>
+<table id="table2" align="center">
+    <tr class="yellow">
         <td colspan="3"></td>
-        <th style="width: 150px" bgcolor="yellow">Thứ 3</th>
-        <th style="width: 150px" bgcolor="yellow">Thứ 5</th>
-        <th style="width: 150px" bgcolor="yellow">Thứ 7</th>
+        <th>Thứ 3</th>
+        <th>Thứ 5</th>
+        <th>Thứ 7</th>
     </tr>
-    <tr bgcolor="#d2691e">
-        <th style="width: 70px">Tuần</th>
-        <th style="width: 140px">Ngày bắt đầu</th>
-        <th style="width: 140px">Ngày kết thúc</th>
+    <tr class="brown">
+        <td id="week">Tuần</td>
+        <th>Ngày bắt đầu</th>
+        <th>Ngày kết thúc</th>
         <th colspan="3"> Môn học</th>
     </tr>
     <tr>
-        <td align="center">01</td>
+        <td>01</td>
         <td>01/09/2009</td>
         <td>05/09/2009</td>
         <td>CF-T1,L1</td>
@@ -41,7 +86,7 @@
         <td>CF-T3,L3</td>
     </tr>
     <tr>
-        <td align="center">02</td>
+        <td>02</td>
         <td>08/09/2009</td>
         <td>12/09/2009</td>
         <td>CF-T4,L4</td>
@@ -49,7 +94,7 @@
         <td>C-T1,L1</td>
     </tr>
     <tr>
-        <td align="center">03</td>
+        <td>03</td>
         <td>...</td>
         <td>...</td>
         <td>...</td>
