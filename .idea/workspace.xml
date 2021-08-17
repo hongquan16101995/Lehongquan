@@ -17,156 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35010f7b-391e-4794-8dd6-8dea00b74c85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bảng/bangnangcao-covuanew.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bảng/bangnangcao-covuanew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bảng/bangnangcao-lichthang10.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu lệnh IF 2/maytinhdongian.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/FunnyCircle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/caro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/demo_circleRun.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangcoban-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangcoban-company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangdongian-tkbT0909I.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangdongian-tkbT0909I.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangdongian-tkbT0909Inangcao.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangdongian-tkbT0909Inangcao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangnangcao-covua.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangnangcao-lichthang10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangnangcao-lichthang10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangnangcao-thoikhoabieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangnangcao-thoikhoabieu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangnangcao_thoikhoa bieu.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangnangcao_thoikhoabieu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/demo-lichthang10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621G1/Baitap1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621G1/Baitap1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621G1/Cuong2K3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621G1/DoVietHung.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621G1/TuanChinhPhuong.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DatPham/a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DatPham/b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DatPham/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DinhNguyen/Car.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DinhNguyen/Gasoline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DinhNguyen/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DinhNguyen/OOPFunction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/DinhNguyen/OOPNew.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/OOP/Human.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/OOP/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C0621H1/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/CRUD.html" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/CRUD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/CRUD.js" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/CRUD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/BMI.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/BMI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 1/bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Luyện tập 2/bai9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/gamepuzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/gamepuzzle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/maytinh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/maytinhdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/maytinhdongian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/puzzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/gamepuzzle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/sukienbanphim.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/sukienbanphim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/sukienclickchuot.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/sukienclickchuot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/tinhngaytrongthang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/tinhngaytrongthang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/tải xuống.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/fa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/ungdungvui.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/ungdungvui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF/employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF/ex01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF/index_namnhuan.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF/index_namnhuan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF/namnhuancaitien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF/namnhuancaitien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF/sign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF/switch1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF/switch1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cơ bản/Thực hành HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cơ bản/practiceHTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cơ bản/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cơ bản/cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cơ bản/danh sách.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cơ bản/danh sách.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cơ bản/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cơ bản/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cơ bản/timkiemGG.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cơ bản/searchGG.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cơ bản/toggeeswitch.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cơ bản/toggeeswitch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/chenvalue-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/addValue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/demobaitap.html" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/demobaitap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/demobaitap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/demobaitap2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/sapxepmang-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/sortArray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/xoavalue-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/deleteValue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO/xoavalue-demo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO/deleteValue2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form/formcoban-orderform.html" beforeDir="false" afterPath="$PROJECT_DIR$/Form/formcoban-orderform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form/formdangkynguoidung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Form/formdangkynguoidung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form/formdongian-sothich.html" beforeDir="false" afterPath="$PROJECT_DIR$/Form/formdongian-sothich.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Form/formlaysurveykhachhang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Form/formlaysurveykhachhang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 1/giatrinhonhatcuamang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 1/giatrinhonhatcuamang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 1/taovagoiham.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 1/taovagoiham.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 2/ktraSNT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 2/ktraSNT.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 2/ktraSNT2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 2/ktraSNT2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 2/meter-feet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 2/meter-feet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 2/meter-feet.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 2/meter-feet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/hienthidaura.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/hienthidaura.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/hienthidaura2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/hienthidaura2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/hienthidaura3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/hienthidaura3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/hienthidaura4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/hienthidaura4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/nhungjavascript2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/nhungjavascript2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/xinchao.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/xinchao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/BT_xây dựng lớp hình chữ nhật.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/BT_xây dựng lớp hình chữ nhật.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/BT_xây dựng lớp nhiệu độ.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/BT_xây dựng lớp nhiệu độ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/Funny Circle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/Funny Circle.js" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/FunnyCircle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/Xây dựng lớp Date.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/Xây dựng lớp Date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/Xây dựng lớp hình tròn.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/Xây dựng lớp hình tròn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 2/BT_câu chuyện Adam và Eva.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 2/BT_câu chuyện Adam và Eva.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 2/Xây dựng lớp đèn pin + công tắc.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 2/Xây dựng lớp đèn pin + công tắc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 1/carosimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/carosimple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 1/daonguocbang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/ReverseArray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 1/giatrilonnhattrongbang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/MaxInArray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 1/taovathaotacmang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/ManipulatingArrays.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 1/timgiatritrongmang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/FindValueInArray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 1/bai9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập 2/bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/sudunghamcosantrongmang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/UseFunctionInArray.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/tudien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Dictionaryhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/chuvihinhtron.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/PerimeterCircle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/chuyendoinhietdo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/ChangeTemperature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/diemtrungbinh3mon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/AvgThreeSubject.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/dientichhinhtron.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/AreaCircle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/doinhietdo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/TemperaturaChange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/khaibaosudungbien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/UseVariable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/sudungtoantu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/UseOperator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/toantu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/Operator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toán tử/ungdungmaytinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/Calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 1/dowhilesample.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 1/dowhilesample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 1/for2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 1/for2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 1/laplongnhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 1/laplongnhau.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 1/while.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 1/while.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/bai7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/bangcuuchuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/bangcuuchuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/songuyento.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/songuyento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_hinhCN chạy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/demo_rectangleRun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_hình tròn chạy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toán tử/ChangeTemperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/ChangeMoney.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toán tử/UseVariable.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toán tử/UseVariable.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +195,7 @@
       <workItem from="1629095929541" duration="9192000" />
       <workItem from="1629111701856" duration="549000" />
       <workItem from="1629118330907" duration="2826000" />
-      <workItem from="1629161073086" duration="10110000" />
+      <workItem from="1629161073086" duration="15982000" />
     </task>
     <task id="LOCAL-00001" summary="bài tập oop lần 1">
       <created>1593492099725</created>
@@ -364,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627548740469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update refactor bài tập MD1 17.08.2021">
+      <created>1629172096054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629172096054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +259,7 @@
     <MESSAGE value="bigupdate" />
     <MESSAGE value="bài tập oop lần 1" />
     <MESSAGE value="bài tập oop 29.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="bài tập oop 29.07" />
+    <MESSAGE value="update refactor bài tập MD1 17.08.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="update refactor bài tập MD1 17.08.2021" />
   </component>
 </project>

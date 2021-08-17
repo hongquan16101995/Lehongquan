@@ -23,42 +23,55 @@
 </head>
 <body>
 <form>
-    <p>
-    <h2>Market Research Survey</h2>Please take a few moments to complete this satisfaction survey</p>
+    <p><h2>Market Research Survey</h2>Please take a few moments to complete this satisfaction survey
     <p>What is your age range?</p>
-    <select>
-        <option>18-24&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</option>
-        <option>25-34</option>
-        <option>35-50</option>
-        <option>50+</option>
-    </select>
+    <label>
+        <select>
+            <option>18-24</option>
+            <option>25-34</option>
+            <option>35-50</option>
+            <option>50+</option>
+        </select>
+    </label>
     <p>What is your yearly income range?</p>
-    <select>
-        <option>0$-25000%&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</option>
-        <option>25001$-50000$</option>
-        <option>50001$-100000$</option>
-        <option>100000$+</option>
-    </select>
+    <label>
+        <select>
+            <option>0$-25000$</option>
+            <option>25001$-50000$</option>
+            <option>50001$-100000$</option>
+            <option>100000$+</option>
+        </select>
+    </label>
     <p>Gender
-        <br><input type="radio" name="a"> Nam
-        <br><input type="radio" name="a"> Female
-        <br><input type="radio" name="a"> Nonbinary
-        <br><input type="radio" name="a"> Orther
-        <br>&emsp;<input type="text" name="text" size="20">
+        <br><input type="radio" name="gender" id="male"><label for="male">Nam</label>
+        <br><input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <br><input type="radio" name="gender" id="nonlinear"><label for="nonlinear">Nonlinear</label>
+        <br><input type="radio" name="gender" id="other"><label for="other">Other</label>
+        <br>&emsp;<label for="other">
+            <input type="text" name="text" size="20">
+        </label>
     </p>
     <p>Which of the following products have your purchased in the last 2 months. Please check all that apply
-        <br><input type="radio" name="b"> Product 1
-        <br><input type="radio" name="b"> Product 2
-        <br><input type="radio" name="b"> Product 3</p>
+        <br><input type="radio" name="product" id="p1"><label for="p1">Product 1</label>
+        <br><input type="radio" name="product" id="p2"><label for="p2">Product 2</label>
+        <br><input type="radio" name="product" id="p3"><label for="p3">Product 3</label>
+    </p>
     <p>How often would you use our new product?
-        <br><input type="radio" name="c"> Daily
-        <br><input type="radio" name="c"> Weekly
-        <br><input type="radio" name="c"> Monthly</p>
+        <br><input type="radio" name="time" id="daily"><label for="daily">Daily</label>
+        <br><input type="radio" name="time" id="weekly"><label for="weekly">Weekly</label>
+        <br><input type="radio" name="time" id="monthly"><label for="monthly">Monthly</label>
+    </p>
     <p>What would you pay for the new product?
-        <br>$ <input type="text" name="text" size="15"> . <input type="text" name="text" size="3">
+        <br>$ <label>
+            <input type="text" name="text" size="15">
+        </label> . <label>
+            <input type="text" name="text" size="3">
+        </label>
         <br>&nbsp;&nbsp;&nbsp;Dollars&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Cents</p>
     <p>What features would like to see it the new product.</p>
-    <textarea name="text" style="width: 800px;height: 150px"></textarea>
+    <label>
+        <textarea name="text" style="width: 800px;height: 150px"></textarea>
+    </label>
     <p>Please rate your level of agreement with the following statements</p>
     <table style="width: 800px; height: 150px">
         <tr>
@@ -70,24 +83,24 @@
         </tr>
         <tr>
             <td style="text-align: left"><strong>Our products are priced fairly</strong></td>
-            <td><input type="radio" name="f"><br>1</td>
-            <td><input type="radio" name="f"><br>2</td>
-            <td><input type="radio" name="f"><br>3</td>
-            <td><input type="radio" name="f"><br>4</td>
+            <td><input type="radio" name="a" id="one-a"><br><label for="one-a">1</label></td>
+            <td><input type="radio" name="a" id="two-a"><br><label for="two-a">2</label></td>
+            <td><input type="radio" name="a" id="three-a"><br><label for="three-a">3</label></td>
+            <td><input type="radio" name="a" id="four-a"><br><label for="four-a">4</label></td>
         </tr>
         <tr>
             <td style="text-align: left"><strong>Our products are high quality</strong></td>
-            <td><input type="radio" name="g"><br>1</td>
-            <td><input type="radio" name="g"><br>2</td>
-            <td><input type="radio" name="g"><br>3</td>
-            <td><input type="radio" name="g"><br>4</td>
+            <td><input type="radio" name="b" id="one-b"><br><label for="one-b">1</label></td>
+            <td><input type="radio" name="b" id="two-b"><br><label for="two-b">2</label></td>
+            <td><input type="radio" name="b" id="three-b"><br><label for="three-b">3</label></td>
+            <td><input type="radio" name="b" id="four-b"><br><label for="four-b">4</label></td>
         </tr>
         <tr>
             <td style="text-align: left"><strong>You would recomment our product to a friend or coworker</strong></td>
-            <td><input type="radio" name="h"><br>1</td>
-            <td><input type="radio" name="h"><br>2</td>
-            <td><input type="radio" name="h"><br>3</td>
-            <td><input type="radio" name="h"><br>4</td>
+            <td><input type="radio" name="c" id="one-c"><br><label for="one-c">1</label></td>
+            <td><input type="radio" name="c" id="two-c"><br><label for="two-c">2</label></td>
+            <td><input type="radio" name="c" id="three-c"><br><label for="three-c">3</label></td>
+            <td><input type="radio" name="c" id="four-c"><br><label for="four-c">4</label></td>
         </tr>
     </table>
     <br>
