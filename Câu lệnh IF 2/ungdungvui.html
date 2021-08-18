@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Test</title>
+    <style>
+        h1 {
+            position: absolute;
+            left: 250px;
+            top: 250px
+        }
+
+        input {
+            position: absolute;
+            left: 300px;
+            top: 320px;
+            width: 55px;
+        }
+
+        div #not {
+            position: absolute;
+            left: 370px;
+            top: 320px
+        }
+    </style>
 </head>
 <body>
 <div id="tong">
-    <h1 style="position: absolute;left: 250px;top: 250px">Do you love me?</h1>
-    <input type="button" name="yes" value="Yes" style="position: absolute;left: 300px;top: 320px" onclick="yesClick()"/>
-    <input type="button" name="no" value="No" id="not" style="position: absolute;left: 370px;top: 320px"
-           onmouseover="noClick()"/>
+    <h1>Do you love me?</h1>
+    <input type="button" name="yes" value="Yes" onclick="yesClick()"/>
+    <input type="button" name="no" value="No" id="not" onmouseover="noClick()"/>
 </div>
 <script>
     function yesClick() {

@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Sự kiện bàn phím</title>
+    <style>
+        img {
+            height: 300px;
+            width: 168px;
+        }
+    </style>
 </head>
 <body onload="docReady()">
-<img id="img" src="fa.jpg" style="position:absolute;left: 50px; top: 50px" height="300" width="168" alt="khonghienthi"/>
+<img id="img" src="fa.jpg" alt="khonghienthi"/>
 <script>
     function upArrow() {
         let element = document.getElementById("img");
@@ -29,23 +35,31 @@
 
     function moveSelection(evt) {
         switch (evt.keyCode) {
-            case 87:
+            case 38:
                 upArrow();
                 break;
-            case 83:
+            case 40:
                 downArrow();
                 break;
-            case 65:
+            case 37:
                 leftArrow();
                 break;
-            case 68:
+            case 39:
                 rightArrow();
                 break;
         }
     }
 
     function docReady() {
+        init()
         window.addEventListener("keydown", moveSelection)
+    }
+
+    function init() {
+        let imgObj = document.getElementById("img");
+        imgObj.style.position = "relative";
+        imgObj.style.left = "50px";
+        imgObj.style.top = "50px";
     }
 </script>
 </body>
