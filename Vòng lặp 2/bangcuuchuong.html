@@ -6,17 +6,17 @@
 </head>
 <body>
 <script>
-    let sout;
-    sout = "<table border= '2px solid black' width=100% cellspacing='2 ' cellpadding='3'>"
+    let data;
+    data = "<table style='border: 2px solid black; width: 80%; margin: auto' >"
     for (let i = 1; i <= 9; i++) {
-        sout = sout + "<tr>";
+        data = data + "<tr>";
         for (let j = 2; j <= 9; j++) {
-            sout = sout + "<td border= '2px solid black'>" + j + "x" + i + "=" + (i * j) + "</td>";
+            data = data + "<td style='border: 2px solid black;'>" + j + "x" + i + "=" + (i * j) + "</td>";
         }
-        sout = sout + "</tr>";
+        data = data + "</tr>";
     }
-    sout = sout + "</table>";
-    document.write(sout);
+    data = data + "</table>";
+    document.write(data);
 </script>
 </body>
 </html>

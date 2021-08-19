@@ -19,9 +19,14 @@
         td {
             text-align: center
         }
+
+        .test #male {
+
+        }
     </style>
 </head>
 <body>
+<div>
 <form>
     <p><h2>Market Research Survey</h2>Please take a few moments to complete this satisfaction survey
     <p>What is your age range?</p>
@@ -42,15 +47,16 @@
             <option>100000$+</option>
         </select>
     </label>
+    <div class="test">
     <p>Gender
-        <br><input type="radio" name="gender" id="male"><label for="male">Nam</label>
+        <br><input type="radio" name="gender" id="male"><label for="male">Male</label>
         <br><input type="radio" name="gender" id="female"><label for="female">Female</label>
         <br><input type="radio" name="gender" id="nonlinear"><label for="nonlinear">Nonlinear</label>
         <br><input type="radio" name="gender" id="other"><label for="other">Other</label>
         <br>&emsp;<label for="other">
             <input type="text" name="text" size="20">
         </label>
-    </p>
+    </p></div>
     <p>Which of the following products have your purchased in the last 2 months. Please check all that apply
         <br><input type="radio" name="product" id="p1"><label for="p1">Product 1</label>
         <br><input type="radio" name="product" id="p2"><label for="p2">Product 2</label>
@@ -107,5 +113,6 @@
     <button><strong>Submit</strong></button>
     <input type="reset" value="Reset">
 </form>
+</div>
 </body>
 </html>

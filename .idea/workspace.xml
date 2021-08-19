@@ -17,15 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35010f7b-391e-4794-8dd6-8dea00b74c85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Câu lệnh IF 2/game-puzzle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu lệnh IF 2/game-puzzle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/gamepuzzle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/gamepuzzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/maytinhdongian.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/maytinhdongian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/sukienbanphim.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/sukienbanphim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/ungdungvui.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/ungdungvui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form/formlaysurveykhachhang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Form/formlaysurveykhachhang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/bangcuuchuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/bangcuuchuong.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +200,9 @@
       <workItem from="1629247784509" duration="1306000" />
       <workItem from="1629259240052" duration="740000" />
       <workItem from="1629269381773" duration="4214000" />
-      <workItem from="1629290104880" duration="3841000" />
+      <workItem from="1629290104880" duration="4345000" />
+      <workItem from="1629295684691" duration="1863000" />
+      <workItem from="1629333766775" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="bài tập oop lần 1">
       <created>1593492099725</created>
@@ -241,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629189987153</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update bài tập câu lênh if">
+      <created>1629294273048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629294273048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +282,7 @@
     <MESSAGE value="bài tập oop 29.07" />
     <MESSAGE value="update refactor bài tập MD1 17.08.2021" />
     <MESSAGE value="update refactor bài tập MD1 17.08.2021 - chiều" />
-    <option name="LAST_COMMIT_MESSAGE" value="update refactor bài tập MD1 17.08.2021 - chiều" />
+    <MESSAGE value="update bài tập câu lênh if" />
+    <option name="LAST_COMMIT_MESSAGE" value="update bài tập câu lênh if" />
   </component>
 </project>
