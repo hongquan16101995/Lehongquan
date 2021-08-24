@@ -12,12 +12,34 @@
         }
         document.write('<br>');
     }
+    document.write('<br>');
 
-    for (let g = 5; g >= 1; g--) {
-        for (let h = 1; h <= g; h++) {
+    for (let i = 5; i >= 1; i--) {
+        for (let j = 1; j <= i; j++) {
             document.write('* ');
         }
         document.write('<br>');
+    }
+    document.write('<br>');
+
+    for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j < i; j++) {
+            document.write('&ensp;');
+        }
+        for (let j = 5; j >= i; j--) {
+            document.write('*');
+        }
+        document.write("<br>")
+    }
+
+    for (let i = 0; i <= 5; i++) {
+        for (let j = 4; j >= i; j--) {
+            document.write('&ensp;');
+        }
+        for (let j = 1; j <= i; j++) {
+            document.write('*');
+        }
+        document.write("<br>")
     }
 </script>
 </body>

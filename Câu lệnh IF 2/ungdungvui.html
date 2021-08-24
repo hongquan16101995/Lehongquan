@@ -38,8 +38,9 @@
     function noClick() {
         let x = window.innerWidth;
         let y = window.innerHeight;
-        document.getElementById("not").style.left = Math.round(x * Math.random()) + "px";
-        document.getElementById("not").style.top = Math.round(y * Math.random()) + "px";
+        let button = document.getElementById("not");
+        button.style.left = Math.round(x * Math.random()) + "px";
+        button.style.top = Math.round(y * Math.random()) + "px";
     }
 </script>
 </body>

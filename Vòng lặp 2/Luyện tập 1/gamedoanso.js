@@ -8,18 +8,25 @@ function guessTheNumber() {
         guestNum = +prompt("Nhập vào số bạn đoán: ")
     }
     if (guestNum !== ranNum) {
-        let i = 1;
+        let i = 0;
         while (guestNum !== ranNum) {
+            if (guestNum < ranNum) {
+                alert("Lớn hơn bạn êy!")
+            } else if (guestNum > ranNum) {
+                alert("Nhỏ hơn bạn êy!")
+            }
             guestNum = +prompt("Nhập vào số bạn đoán: ")
             i++
             if (i === 3) {
                 alert("Bạn đã thua!")
                 break;
-            } else if (guestNum === ranNum) {
-                alert("Chúc mừng bạn đã đoán đúng!")
-                break;
             }
         }
-    } else alert("Chúc mừng bạn đã đoán đúng!")
+        if (i !== 4) {
+            alert("Chúc mừng bạn đã đoán đúng!")
+        }
+    } else {
+        alert("Chúc mừng bạn đã đoán đúng!")
+    }
     document.write("Số đúng là: " + ranNum)
 }
