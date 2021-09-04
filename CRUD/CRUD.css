@@ -1,10 +1,12 @@
 table {
-    border: 1px solid;
-    border-collapse: collapse;
+    width: 450px;
 }
 
-td {
-    border: 1px solid;
-    border-collapse: collapse;
-    width: 150px;
+#name {
+    width: 50%;
+}
+
+button {
+    width: 55px;
+    text-align: center;
 }

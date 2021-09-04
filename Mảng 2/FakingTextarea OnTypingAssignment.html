@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center">
+    <h2>Type anthing slowly</h2>
+    <label>
+        <textarea style="text-align: center" name="txt" id="text" cols="40" rows="10"
+                  onkeydown="typeTextarea()"></textarea>
+    </label>
+</div>
+
+<script>
+    let string = " TÔI LÀ ĐỒ NGỐC!!!"
+    let array = string.split("")
+
+    function typeTextarea() {
+        let text = document.getElementById("text").value
+        let value = ""
+        if (text.length > 0) {
+            for (let i = 1; i <= text.length; i++) {
+                value += array[i];
+                if (i === array.length) {
+                    document.getElementById("text").value = "";
+                    value = "";
+                }
+            }
+        }
+        document.getElementById("text").value = value;
+        setTimeout("typeTextarea()", 1);
+    }
+</script>
+</body>
+</html>

@@ -6,32 +6,52 @@
 </head>
 <body>
 <script>
-    let Battery = function () {
+    class Battery {
+        energy;
 
-        this.setEnergy = function (energy) {
+        constructor(energy) {
             this.energy = energy;
         }
 
-        this.getEnergy = function () {
+        getEnergy() {
             return this.energy;
         }
 
-        this.decreaseEnergy = function () {
+        setEnergy(energy) {
+            this.energy = energy;
+        }
+
+        decreaseEnergy() {
             this.energy--;
+        }
+
+        increaseEnergy() {
+            this.energy++;
         }
     }
 
-    let FlashLamp = function () {
+    class FlashLamp {
+        status;
+        battery;
 
-        this.setBattery = function (battery) {
+        constructor(battery) {
+            this.status = false;
             this.battery = battery;
         }
 
-        this.getBatteryInfo = function () {
+        getBatteryInfo() {
             return this.battery.getEnergy();
         }
 
-        this.light = function () {
+        setBattery(battery) {
+            this.battery = battery;
+        }
+
+        setEnergyOfBattery(energy) {
+            this.battery.energy = energy;
+        }
+
+        light() {
             if (this.status) {
                 document.write("Lighting" + "<br>");
             } else {
@@ -39,65 +59,94 @@
             }
         }
 
-        this.turnOn = function () {
-            battery.decreaseEnergy();
+        turnOn() {
             this.status = true;
+            this.battery.decreaseEnergy();
         }
 
-        this.turnOff = function () {
+        turnOff() {
             this.status = false;
         }
-    }
 
-    let SwitchButton = function (lamp) {
-        this.lamp = lamp;
-
-        this.setSwitch = function (lamp) {
-            if (this.status) {
-                lamp.turnOn();
-            } else {
-                lamp.turnOff();
+        change(){
+            while (this.battery.getEnergy() < 100) {
+                this.battery.increaseEnergy()
             }
+            document.write("Đã nạp đầy pin" + "<br>")
         }
-
-        this.switchOn = function () {
-            this.status = true;
-        }
-
-        this.switchOff = function () {
-            this.status = false;
-        }
-
     }
 
-    let battery = new Battery();
-    battery.setEnergy(10);
+    let battery = new Battery(100);
+    let flashLamp = new FlashLamp(battery)
 
-    let flashLamp = new FlashLamp();
-    flashLamp.setBattery(battery);
+    function turnOn() {
+        flashLamp.setEnergyOfBattery(50)
+        flashLamp.light()
+        document.write(flashLamp.getBatteryInfo() + "<br>")
+        flashLamp.turnOn()
+        flashLamp.turnOn()
+        flashLamp.turnOn()
+        flashLamp.light()
+        document.write(flashLamp.getBatteryInfo() + "<br>")
+        flashLamp.turnOff()
+        flashLamp.light()
+        document.write(flashLamp.getBatteryInfo() + "<br>")
+        flashLamp.change()
+        document.write(flashLamp.getBatteryInfo() + "<br>")
+    }
 
-    flashLamp.light();
-    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+    turnOn()
 
-    document.write("Turn on<br/>")
-    flashLamp.turnOn();
-    flashLamp.light();
-    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
 
-    document.write("Turn off<br/>")
-    flashLamp.turnOff();
-    flashLamp.light();
+    // let SwitchButton = function (lamp) {
+    //     this.lamp = lamp;
+    //
+    //     this.setSwitch = function (lamp) {
+    //         if (this.status) {
+    //             lamp.turnOn();
+    //         } else {
+    //             lamp.turnOff();
+    //         }
+    //     }
+    //
+    //     this.switchOn = function () {
+    //         this.status = true;
+    //     }
+    //
+    //     this.switchOff = function () {
+    //         this.status = false;
+    //     }
+    //
+    // }
 
-    let switch1 = new SwitchButton(flashLamp);
-    switch1.switchOn();
-    switch1.setSwitch(flashLamp);
-    flashLamp.light();
-    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+    // let battery = new Battery();
+    // battery.setEnergy(10);
+    //
+    // let flashLamp = new FlashLamp();
+    // flashLamp.setBattery(battery);
+    //
+    // flashLamp.light();
+    // document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+    //
+    // document.write("Turn on<br/>")
+    // flashLamp.turnOn();
+    // flashLamp.light();
+    // document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+    //
+    // document.write("Turn off<br/>")
+    // flashLamp.turnOff();
+    // flashLamp.light();
 
-    switch1.switchOff();
-    switch1.setSwitch(flashLamp);
-    flashLamp.light();
-    document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+    // let switch1 = new SwitchButton(flashLamp);
+    // switch1.switchOn();
+    // switch1.setSwitch(flashLamp);
+    // flashLamp.light();
+    // document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
+    //
+    // switch1.switchOff();
+    // switch1.setSwitch(flashLamp);
+    // flashLamp.light();
+    // document.write("Battery info:" + flashLamp.getBatteryInfo() + "<br/>");
 
 </script>
 </body>

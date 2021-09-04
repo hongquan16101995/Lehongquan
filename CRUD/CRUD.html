@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="CRUD.css">
 </head>
 <body onload="drawTable()">
-<input id="add" value="">
-<button onclick="addName()">ADD</button>
+<h1 onclick="drawTable()">All Product</h1>
+<label for="add"></label><input id="add" value="">&emsp;<button onclick="addName()">Thêm</button>&emsp;
+<label for="edit"></label><input id="edit" value="">&emsp;<button onclick="editName()">Sửa</button>
+<label for="index"></label><input id="index" hidden>
 <div id="product"></div>
 <script src="CRUD.js"></script>
 </body>

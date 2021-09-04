@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1500px" height="700px" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+    let ctx = document.getElementById("myCanvas").getContext("2d");
+    let x = 50;
+    let y = 50;
+    let a = 50;
+    let b = 300;
+    let radius = 20;
+    let speed = 10;
+
+    function draw() {
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, 2 * Math.PI);
+        ctx.fillStyle = "red";
+        ctx.fill();
+        y += speed
+    }
+
+    function draw2() {
+        ctx.beginPath();
+        ctx.arc(a, b, radius, 0, 2 * Math.PI);
+        ctx.fillStyle = "blue";
+        ctx.fill();
+    }
+
+    function checkCol() {
+        return y <= b - radius*2;
+
+    }
+
+    function run() {
+        ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
+        if (checkCol() === false) {
+            location.reload()
+            clearInterval(intervalId)
+            alert("Game Over");
+        }
+        draw()
+        draw2()
+    }
+
+    let intervalId = setInterval(run, 20)
+    run()
+</script>
+</body>
+</html>

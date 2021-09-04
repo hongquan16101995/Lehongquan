@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPalindrome(string) {
+        if (string === "") {
+            return true
+        }
+        let arr = string.split("");
+        let first = 0;
+        let last = arr.length - 1;
+        if (arr[first] !== arr[last] && arr.length > 1) {
+            return false
+        }
+        arr.pop()
+        arr.shift()
+        let a = arr.join("")
+        isPalindrome(a)
+        return true
+    }
+    alert(isPalindrome("abcacba"))
+</script>
+</body>
+</html>

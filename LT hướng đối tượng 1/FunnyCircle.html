@@ -31,14 +31,18 @@
 
         createCircle() {
             let ctx = document.getElementById("myCanvas").getContext("2d");
-            let radius = Math.floor(Math.random() * 80); //random bán kính hình tròn từ 0-80
-            let x = Math.random() * window.innerWidth; //random vị trí của hình tròn theo chỉ số cửa sổ window
-            let y = Math.random() * window.innerHeight;
+            let radius = 10; //random bán kính hình tròn từ 0-80
+            let x = 10; //random vị trí của hình tròn theo chỉ số cửa sổ window
+            let y = 10;
             let color = this.getRandomColor()
+            let speed = 5
+            x += speed
+            y += speed
             ctx.beginPath();
             ctx.arc(x, y, radius, 0, 2 * Math.PI);
             ctx.fillStyle = color;
             ctx.fill();
+            requestAnimationFrame(createCircle)
         }
     }
 

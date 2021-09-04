@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="word">
+<button onclick="translate1()">Dịch</button>
+<script>
+    let arrEng = ["hello", "bye", "say"]
+    let arrVn = ["xin chào", "tạm biệt", "nói"]
+
+    function translate1() {
+        let index = -1;
+        let word = document.getElementById("word").value;
+        for (let i = 0; i < arrEng.length; i++) {
+            if (arrEng[i] === word) {
+                index = i
+                break
+            }
+        }
+        if (index !== -1) {
+            alert(arrVn[index])
+        } else {
+            alert("Không tìm thấy!")
+        }
+    }
+</script>
+</body>
+</html>

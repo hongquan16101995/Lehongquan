@@ -16,17 +16,23 @@ function getRandomColor() {
     return "rgb(" + red + "," + blue + "," + green + ")";
 }
 
-function createCircle() {
+function createCircle(x,y) {
     let ctx = document.getElementById("myCanvas").getContext("2d");
     let radius = Math.floor(Math.random() * 80); //random bán kính hình tròn từ 0-80
     let color = getRandomColor();
-    let x = Math.random() * window.innerWidth; //random vị trí của hình tròn theo chỉ số cửa sổ window
-    let y = Math.random() * window.innerHeight;
+    // let x = Math.random() * window.innerWidth; //random vị trí của hình tròn theo chỉ số cửa sổ window
+    // let y = Math.random() * window.innerHeight;
     let circle = new Circle(x, y, radius);
     ctx.beginPath();
     ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
     ctx.fillStyle = color;
     ctx.fill();
+}
+
+function draw() {
+    let x = 10
+    let y = 10
+    createCircle(x,y)
 }
 
 function createMultiCircle() {
