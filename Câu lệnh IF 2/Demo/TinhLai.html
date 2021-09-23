@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let money = parseInt(prompt("Nhập vào số tiền gốc: "))
+  let lai = parseInt(prompt("Nhập vào lãi suất hàng tháng: "))
+  let month = parseInt(prompt("Nhập vào số tháng gửi: "))
+
+  // lãi mẹ đẻ lãi con (lãi kép)
+  for (let i = 1; i <= month; i++) {
+    money = money + (money*(lai/100))
+  }
+
+
+  // let sum = 0
+  // for (let i = 1; i < month; i++) {
+  //   sum = sum + (money*(lai/100))
+  // }
+  alert(money)
+</script>
+</body>
+</html>

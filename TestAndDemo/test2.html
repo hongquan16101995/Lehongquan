@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // function isPalindrome(string) {
+    //     if (string === "") {
+    //         return true
+    //     }
+    //     let arr = string.split("");
+    //     let first = 0;
+    //     let last = arr.length - 1;
+    //     if (arr[first] !== arr[last] && arr.length > 1) {
+    //         return false
+    //     }
+    //     arr.pop()
+    //     arr.shift()
+    //     let a = arr.join("")
+    //     isPalindrome(a)
+    //     return true
+    // }
+    // alert(isPalindrome("abcacba"))
+
+    // let arr = [[1, 2, 3, 4, 5],
+    //     [6, 7, 8, 9, 10],
+    //     [1, 2, 3, 4, 5],
+    //     [10, 9, 8, 6, 4],
+    //     [1, 2, 3, 4, 5]]
+    //
+    // let sum1 = 0;
+    // let sum2 = 0;
+    // let x = arr.length -1;
+    // for (let i = 0; i < arr.length; i++) {
+    //     sum1 += arr[i][i]
+    //     sum2 += arr[i][x]
+    //     x--
+    // }
+    //
+    // let result = sum1 - sum2
+    // alert(result)
+
+// let arr = [1 ,4, 4 ,4, 5, 3]
+//     let count1 = 0
+//     let id = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         let count2 = 0
+//         if (arr[i] === 0) {
+//             continue
+//         }
+//         for (let j = 0; j < arr.length; j++){
+//             if (arr[i]===arr[j]){
+//                 arr[j] = 0
+//                 count2++
+//             }
+//         }
+//         if (count2>count1){
+//             id=arr[i]
+//             count1=count2
+//         }else if(count2==count1 && arr[i]<id){
+//             id=arr[i]
+//         }
+//     }
+//     alert(id)
+
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            let temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array
+    }
+
+    // Used like so
+    let arr = [2, 11, 37, 42];
+    arr = shuffleArray(arr);
+    alert(arr);
+</script>
+</body>
+</html>

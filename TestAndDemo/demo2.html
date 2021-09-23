@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
+  let b = ['UrsaMinor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'UrsaMajor', 'Leo']
+  let c = prompt('nhap vao ten ngoi sao bat ky')
+
+  function checkStar(array1, array2, starName) {
+    let result;
+    for (let i = 0; i < array1.length; i++) {
+      if (starName === array1[i]) {
+        result =  array2[i]
+        break
+      }else {
+        result = " khong tim thay"
+      }
+    }
+    return result
+  }
+  alert(checkStar(a, b, c))
+</script>
+</body>
+</html>

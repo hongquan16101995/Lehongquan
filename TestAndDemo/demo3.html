@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let arr = [4, 2, 6, 1, 10]
+    // let k = 3
+    // let page = 1
+    // let count = 0
+    // for (let i = 0; i < arr.length; i++) {
+    //     let problem = arr[i]
+    //     for (let j = 1; j <= problem; j++) {
+    //         if(j === page) {
+    //             count++
+    //         }
+    //         if (j % k === 0) {
+    //             page++
+    //         }
+    //     }
+    //     if (problem % k !== 0) {
+    //         page++
+    //     }
+    // }
+    // alert(count)
+
+    // let a = "abccba"
+    // let first = 0
+    // let last = a.length - 1
+    // let check = true
+    // while (first < last) {
+    //     if (a[first] !== a[last]) {
+    //         check = false
+    //         break
+    //     }
+    //     first++
+    //     last--
+    // }
+    // if (check === true) {
+    //     alert("True")
+    // } else {
+    //     alert("False")
+    // }
+
+    let a = 5
+    let b = 10
+
+    function change(a, b) {
+        let temp = a
+        a = b
+        b = temp
+        alert(a + "; " + b)
+    }
+
+    alert(a + "; " + b)
+    change(a, b)
+
+    window.addEventListener("keydown", change)
+</script>
+</body>
+</html>

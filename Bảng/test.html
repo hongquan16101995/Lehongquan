@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage();">Click Me!</button>
+<button type="button" onclick="showMessage1();">Click Me1!</button>
+<script>
+ function showMessage(){
+     document.getElementById('messageDiv').innerHTML = 'Xin chào!' + "<br>" + "abc";
+}
+
+function showMessage1() {
+     document.write('Xin chào!')
+}
+</script>
+</body>
+</html>

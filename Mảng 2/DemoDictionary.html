@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label><input type="text" id="input"></label>
+<br>
+<button onclick="test()">Search</button>
+<br>
+<h1 id="result"></h1>
+<script>
+  let arrEnglish = ["hello", "bye", "cat", "dog"]
+  let arrVietnamese = ["xin chào", "tạm biệt", "con mèo", "con chó"]
+  function searchEnglish() {
+    let input = document.getElementById("input").value;
+    let check = false
+    for(let i = 0; i < arrEnglish.length; i++) {
+      if (input === arrEnglish[i]) {
+        document.getElementById("result").innerHTML = arrVietnamese[i]
+        check = true
+        break
+      }
+    }
+    if (check === false) {
+      document.getElementById("result").innerHTML = "Không tìm thấy"
+    }
+  }
+
+  function test() {
+    let input = document.getElementById("input").value;
+    let index = arrEnglish.indexOf(input);
+    if (index !== -1) {
+      document.getElementById("result").innerHTML = arrVietnamese[index]
+    } else {
+      document.getElementById("result").innerHTML = "Không tìm thấy"
+    }
+  }
+</script>
+</body>
+</html>

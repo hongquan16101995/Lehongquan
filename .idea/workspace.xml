@@ -16,29 +16,42 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35010f7b-391e-4794-8dd6-8dea00b74c85" name="Default Changelist" comment="update for sáng ngày 24/08/2021">
-      <change afterPath="$PROJECT_DIR$/Hàm 2/.idea/Hàm 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/Collision.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/MyDate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 1/thuchanh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/.idea/Mảng 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/FakingTextarea OnTypingAssignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/tudien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test2.html" afterDir="false" />
+    <list default="true" id="35010f7b-391e-4794-8dd6-8dea00b74c85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bảng/Debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bảng/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bảng/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Demo/TinhLai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Câu lệnh IF/abc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form/ThucHanh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/DemoDictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/Bai9-LT2-Ham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/Lamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/Switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/CRUD.css" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/CRUD.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/CRUD.html" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/CRUD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/CRUD.js" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/CRUD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/FunnyCircle.html" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/FunnyCircle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LT hướng đối tượng 1/FunnyCircle.js" beforeDir="false" afterPath="$PROJECT_DIR$/LT hướng đối tượng 1/FunnyCircle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 2/Dictionaryhtml" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 2/Dictionary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bảng/bangnangcao-covuanew.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangnangcao-covuanew.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/good-fast-cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/good-fast-cheap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form/formdongian-sothich.html" beforeDir="false" afterPath="$PROJECT_DIR$/Form/formdongian-sothich.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mảng 1/carosimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/carosimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Lamp-C08H1/ElectricLamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Lamp-C08H1/ElectricLamp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Lamp-C08H1/Lamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Lamp-C08H1/Lamp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Lamp-C08H1/Switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Lamp-C08H1/Switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/caro.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/caro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/demo_circleRun.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/demo_circleRun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/demo_rectangleRun.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/demo_rectangleRun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +101,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BT-tuan-5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -102,11 +115,11 @@
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 2\Luyện tập 1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Câu lệnh IF 2" />
+      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Câu lệnh IF 2\a" />
+      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Câu lệnh IF 2\ảnh" />
       <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Test" />
       <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Bảng" />
-      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\CRUD" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\CaseStudy" />
-      <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\LT hướng đối tượng 2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -239,6 +252,13 @@
       <workItem from="1630379636029" duration="4678000" />
       <workItem from="1630392996045" duration="1591000" />
       <workItem from="1630395020525" duration="3155000" />
+      <workItem from="1631171253073" duration="783000" />
+      <workItem from="1631499044532" duration="1939000" />
+      <workItem from="1631505296620" duration="6000" />
+      <workItem from="1631582788765" duration="4496000" />
+      <workItem from="1632186383167" duration="6685000" />
+      <workItem from="1632273311398" duration="3946000" />
+      <workItem from="1632358070845" duration="7377000" />
     </task>
     <task id="LOCAL-00001" summary="bài tập oop lần 1">
       <created>1593492099725</created>

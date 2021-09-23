@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let strings = 'Someone you loved'
+    let arr = strings.split('')
+    let check = prompt('enter the character')
+    alert(characters(arr, check))
+
+    function characters(arr, check) {
+        let count = -1
+        for (let i = 0; i < arr.length; i++) {
+            if (check === arr[i]) {
+                count++
+            }
+        }
+        if (count !== -1) {
+            return ++count
+        } else {
+            return count
+        }
+    }
+</script>
+</body>
+</html>
