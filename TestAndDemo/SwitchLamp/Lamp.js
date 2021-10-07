@@ -1,8 +1,10 @@
 class Lamp {
     status;
+    doSang;
 
-    constructor(status) {
+    constructor(status, doSang) {
         this.status = status
+        this.doSang = doSang
     }
 
     turnOn() {

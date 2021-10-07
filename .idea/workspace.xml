@@ -17,41 +17,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35010f7b-391e-4794-8dd6-8dea00b74c85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bảng/Debug.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bảng/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bảng/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu lệnh IF 2/Demo/TinhLai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu lệnh IF/abc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form/ThucHanh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/DemoDictionary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/Bai9-LT2-Ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/Lamp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/demo3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestAndDemo/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/C09K/demo-bang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/C09K/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/C09K/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/C09K/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/Demo/ClassES6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/Demo/DemoClass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestAndDemo/Lamp-C08H1/Mobile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bảng/bangnangcao-covuanew.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bảng/bangnangcao-covuanew.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu lệnh IF 2/good-fast-cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu lệnh IF 2/good-fast-cheap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form/formdongian-sothich.html" beforeDir="false" afterPath="$PROJECT_DIR$/Form/formdongian-sothich.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hàm 1/chuyendoinhietdo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mảng 1/carosimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mảng 1/carosimple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Lamp-C08H1/ElectricLamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Lamp-C08H1/ElectricLamp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Lamp-C08H1/Lamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Lamp-C08H1/Lamp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Lamp-C08H1/Switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Lamp-C08H1/Switch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/caro.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/caro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/demo_circleRun.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/demo_circleRun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/demo_rectangleRun.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/demo_rectangleRun.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 1/gamedoanso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập 2/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/Bai9-LT2-Ham.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/Bai9-LT2-Ham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/Lamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/SwitchLamp/Lamp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/caro.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/caro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/demo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/demo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/demo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/demo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/demo3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/demo_circleRun.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/demo_circleRun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/demo_rectangleRun.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/demo_rectangleRun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAndDemo/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestAndDemo/Demo/test2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,11 +100,11 @@
       <recent name="C:\Users\ADMIN\WebstormProjects\Lehongquan\Mảng 2\Luyện tập 1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\TestAndDemo\Demo" />
+      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\TestAndDemo" />
       <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Câu lệnh IF 2" />
       <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Câu lệnh IF 2\a" />
       <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Câu lệnh IF 2\ảnh" />
-      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Test" />
-      <recent name="C:\Users\ADMIN\Desktop\WebStorm\Lehongquan\Bảng" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -258,7 +243,11 @@
       <workItem from="1631582788765" duration="4496000" />
       <workItem from="1632186383167" duration="6685000" />
       <workItem from="1632273311398" duration="3946000" />
-      <workItem from="1632358070845" duration="7377000" />
+      <workItem from="1632358070845" duration="7403000" />
+      <workItem from="1632446732120" duration="5828000" />
+      <workItem from="1632481145063" duration="319000" />
+      <workItem from="1632577852396" duration="508000" />
+      <workItem from="1633569809394" duration="5404000" />
     </task>
     <task id="LOCAL-00001" summary="bài tập oop lần 1">
       <created>1593492099725</created>
@@ -309,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629338511515</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update sáng ngày 23/09/2021">
+      <created>1632372503527</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632372503527</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +343,7 @@
     <MESSAGE value="update refactor bài tập MD1 17.08.2021 - chiều" />
     <MESSAGE value="update bài tập câu lênh if" />
     <MESSAGE value="update sáng ngày 19/08/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="update sáng ngày 19/08/2021" />
+    <MESSAGE value="update sáng ngày 23/09/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="update sáng ngày 23/09/2021" />
   </component>
 </project>
